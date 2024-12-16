@@ -523,3 +523,397 @@ precision = precision_score(Y_test, Y_pred,pos_label='str')
 precision = precision_score(Y_test, Y_pred,pos_label='Female')
  precision
 %runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
+
+## ---(Thu Dec 12 14:18:14 2024)---
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+df.head(5)
+df['label']
+df['label']==0
+df01=df.loc(['label']==0)
+df01.head()
+df01.head(5)
+df01
+df01=df(df.loc(['label']==0))
+df01=df.loc[df['label']==0)]
+df01=df.loc[df['label']==0]
+df01
+df01=df.loc[df['label']==0,1]
+df01=df.loc[df['label']==0]
+df0=df.loc[df['label']==0]
+df1=df.loc[df['label']==1]
+df= pd.concat([df0,df1],axis=0, ignore_index=True)
+df= df.sample(frac=1).reset_index(drop=True)
+df.columns
+df.shape
+df01
+df
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+train.columns
+df.columns
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+Y_train
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+Y_test.shape
+Y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+df.to_numpy
+df.to_numpy.shape
+df.to_numpy.
+xx=df.to_numpy
+xx-shape
+xx.shape
+xx.size
+xx.size()
+size(xx)
+print(xx.shape)
+xx
+print(xx.shape)
+df.values
+%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
+th = rand.random(0.5,1,1)
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
+th
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
+th, w1, w2
+float(th)
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
+th, w1, w2
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Übung53Ü01.py' --wdir
+np.random.seed(42)
+weights_input_hidden = np.random.rand(inputLayerSize, hiddenLayerSize) 
+weights_hidden_output = np.random.rand(hiddenLayerSize, outputLayerSize)
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
+weights_input_hidden
+weights_output_hidden
+weights_hidden_output
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/Eigene_Project_chapter7.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Übung55C01.py' --wdir
+targets = np.array([[0], [1], [0], [1]]) # XOR-Targets
+targets
+targets.shape
+train_data = np.array([ 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0] ])
+train_data.shape
+train_data = np.array([ 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0] 
+    [0, 0], 
+[0, 1], 
+[1, 1], 
+[1, 0]])
+train_data = np.array([ 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0] 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0]])
+train_data = np.array([ 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0], 
+    [0, 0], 
+    [0, 1], 
+    [1, 1], 
+    [1, 0]])
+train_data.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+28*28
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+datensatz = X_train[0].split(',') #5
+X_train[0]
+X_train
+X_train.shape
+X_train[0,*]
+X_train[0,784]
+X_train.loc[0,784]
+X_train.iloc[0,784]
+X_train.iloc[0]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+datensatz
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+pixel
+pixel(pixel > 0)
+pixel.iloc(pixel > 0)
+pixel[pixel > 0]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+bildarray
+bildArray
+bildArray.shape
+xbils=bildArray[1:28, 1:28]
+xbils.shape
+plt.imshow(xbils, cmap='Greys') #8
+plt.show() #9
+xbils.reshape(3,3)
+xbils.reshape((3,3))
+print()
+xbils.shape
+xb=np.array(3,3)
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+train
+train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+trainx= X_train
+trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
+trainX= X_train
+trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
+trainX.shape[0]
+trainX.values.shape[0]
+trainX.values.shape
+trainX= X_train.values
+trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
+Y_train.shape
+Y_train.values
+Y_train
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_train.values
+dfY_train.values
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+X_train[*,1:28,1:28]
+X_train[,1:28,1:28]
+X_train[12665,1:28,1:28]
+w1 = np.random.rand(10, 784) - 0.5
+w1.shape
+
+wih = np.random.rand(H_KNOTEN, I_KNOTEN) - 0.5
+who = np.random.rand(O_KNOTEN, H_KNOTEN) - 0.5
+wih.shape, who.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+print(forward_propagation(train_inputs, wi, wo)[0])
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+y_pred
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+error
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_test
+X_traomin
+X_train
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+X_test.shape
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
+Y_pres
+Y_pred
+Y_test
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_pred, Y
+Y_pred, Y_test
+Y_pred.shape, Y_test.shape
+Y_pred[0]
+Y_pred[0:20]
+Y_test
+Y_test[20]
+Y_test[0:20]
+Y_test[0:70]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_test[0:70]
+Y_pred[0:20]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_pred[0:20]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+y_pred.shape
+y_pred[1,:]
+y_pred[1]
+y_test.shape
+Y_test.shape
+Y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+yy
+yy.len
+yy.shape
+yy.shape[:]
+yy.shape[:,1]
+yy.shape[:,0]
+Y_train.shape[:,0]
+Y_train.shape
+Y_test.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+yy
+avg(yy)
+yy.mean
+np.mean(yy)
+np.mean(yy,axis=1)
+yyyy = np.mean(yy,axis=1)
+yyyy[0:30]
+yy
+yy[0:0]
+yy[0:20]
+y_pred
+y_pred[0:50]
+Y_train[0:50]
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+error
+print(Y_train[0:20], y_pred[0:20])
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+yy
+yy[1]
+np.mean(yy[1])
+np.mean(yy)
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_pred
+Y_pred.shape
+Y_pred[1]
+Y_pred[0]
+Y_pred[0,:]
+Y_pred[0:20,:]
+Y_pred
+YY
+yy
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+precision = precision_score(Y_test, Y_pred, pos_label='0')
+recall = recall_score(Y_test, Y_pred, pos_label='0')
+f1score = f1_score(Y_test, Y_pred, pos_label='0')
+
+print(accuracy, precision, recall, f1score)
+precision = precision_score(Y_test, Y_pred)
+precision
+accuracy = accuracy_score(Y_test, Y_pred)
+precision = precision_score(Y_test, Y_pred)#, pos_label='0')
+recall = recall_score(Y_test, Y_pred)#, pos_label='0')
+f1score = f1_score(Y_test, Y_pred)#, pos_label='0')
+
+print(accuracy, precision, recall, f1score)
+Y_pred, Y_test
+len(Y_test)
+Y_pred = np.array(len(Y_test))
+Y_pred
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+len(Y_test)
+Y_test
+Y_test.shape
+Y_pred = np.array(len(Y_test))
+Y_pred.shape
+Y_pred = np.array(len(Y_test))
+Y_pred.shape
+Y_pred = np.array[]*len(Y_test)
+Y_pred = np.array[] * len(Y_test)
+Y_pred = np.array[0] * len(Y_test)
+Y_pred = [0] * len(Y_test)
+Y_pred
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+datalist
+grayscale
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+datalist[0:100]
+greyscale[0:100]
+data[0:100]
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+pixelcount
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+datalist
+datalist > 100
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+new
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+datalist.shape
+datalist
+np.size(datalist)
+np.len(datalist)
+np.size(datalist)
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+pixel
+datalist[0]
+datalist[1]
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+pixelcount
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+print(pixelcount)
+%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
+x=numbers()
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+x=numbers()
+x
+x.shape
+np.size(x)
+x.size
+x.size()
+len(x)
+size(x)
+x
+x.shape
+x.itemsize
+np.shape(x)
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+x
+x.shape
+x.shape()
+np.size(x)
+np.size(train_inputs)
+x
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wi
+wo
+train_outputs
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+x
+train_inputs
+train_outputs
+wi
+y_pred, h = forward_propagation(train_inputs, wi, wo)
+np.dot(train_inputs, wi)
+wi.shape
+train_inputs.shape
+np.shape(train_inputs)
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
+wi
+x
+train_inputs
+train_inputs.shape
+wi.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+X_train.shape
+wi.shape
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+train_inputs
+train_inputs.shape
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+train_inputs.shape
+train_inputs
+train.shape
+train.info
+train_inputs
+train_inputs.shape
+np.shape(train_inputs)
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+train_inputs
+train_inputs.shaüe
+train_inputs.shape
+np.shape(train_inputs)
+np.shape(w1)
+np.shape(wi)
+X_train
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+np.shape(train_inputs)
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+y_pred
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+train_inputs.shape
+train_outputs.shape
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+accuracy
+yy
+Y_pred
+yy
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+accuracy
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir

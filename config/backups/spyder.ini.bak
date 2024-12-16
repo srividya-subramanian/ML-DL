@@ -24,7 +24,7 @@ previous_crash =
 window/statusbar = True
 prev_high_dpi_custom_scale_factors = 1
 last_inapp_appeal = 2024-12-09
-spyder_runs_for_appeal = 3
+spyder_runs_for_appeal = 5
 
 [update_manager]
 check_updates_on_startup = True
@@ -127,7 +127,7 @@ pdb_use_exclamation_mark = True
 pdb_stop_first_line = True
 editor_debugger_panel = True
 breakpoints_table_visible = False
-breakpoints = {}
+breakpoints = {'c:\\users\\srivi\\.spyder-py3\\transferaufgabe55a01.py': []}
 window_was_undocked_before_hiding = False
 first_time = False
 enable = True
