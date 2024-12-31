@@ -67,8 +67,9 @@ def back_propagation(h, wi, wo, x, y, y_pred,  lr):
     return wi, wo
 
 inputLayerSize, hiddenLayerSize, outputLayerSize = 15, 10, 5
-wi = np.random.rand(inputLayerSize, hiddenLayerSize) 
-wo = np.random.rand(hiddenLayerSize, outputLayerSize) 
+wi = np.random.uniform(0.01,0.3,size=(15,10))
+wo = np.random.uniform(0.01,0.3,size=(10,5)) 
+print(wi, wo)
 
 train_inputs = numbers()
 train_outputs = np.array([[1], [2], [3], [4], [5],[1], [2], [3], [4], [5],[1], [2], [3], [4], [5]]) 

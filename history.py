@@ -917,3 +917,458 @@ yy
 %runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
 accuracy
 %runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+
+## ---(Mon Dec 16 19:27:59 2024)---
+%runfile C:/Users/srivi/untitled0.py --wdir
+array
+%runfile C:/Users/srivi/untitled0.py --wdir
+avg
+min(array)
+max(array)
+%runfile C:/Users/srivi/untitled0.py --wdir
+array_new
+%runfile C:/Users/srivi/untitled0.py --wdir
+sorted_array
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+df.info
+df.summary
+df.summary()
+df.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+df-mean(axis = 0)
+df.mean(axis = 0)
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+values.shape
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+values.shape
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+values.shape
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+print,df_new
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+df
+df.shape
+df.head(5)
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+print(df['Income'].mean(axis = 0))
+df.head(5)
+print(df['Income'].mean)
+print(df.columns)
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+print(df['Income'].mean)
+print(df['Income'].mean,axis=0)
+print(df['Income'].mean,axis=1)
+df['Income'].mean
+df['Income']
+df['Income'].mean()
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled3.py --wdir
+df
+df.columns
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+X[:50, 0]
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wi
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wo
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+w1
+wo
+wi
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+rand.uniform(0.1,0.3,size=(2,3))
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wi
+np.random.uniform(0.01,0.3,size=(15,10))
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wi
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
+wi
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+rand.rand(3)* 0.01
+rand.rand(3)
+rand.rand(30)
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+w = rand.rand(0.001,0.01,4)
+rand.uniform(0.1,0.3,size=(2,3))
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+rand.uniform(0.1,0.3,size=(4,) )
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+w = rand.uniform(0.001,0.01,size=(4,))
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+x.size
+x.shape
+w.shape
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+y, y_pred
+y
+y.values
+y.value
+y
+y, y_pred
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+y, y_pred
+y
+y_pred
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01_bookversion.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+X
+df
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+y
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+X
+X.shape
+X.columns
+df.columns
+df.drop('4')
+df.drop('4',axis=0)
+df.drop('4',axis=1=
+df.drop('4',axis=1)
+df1=df.drop('4',axis=1)
+df['0']
+df
+df[4]
+df.drop([4],axis=1)
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+X
+y
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+df[:3]
+df[:3, axis=0]
+df[:3, axis=1]
+df[0:3, axis=1]
+df[:3], axis=1
+df1=df[:3], axis=1
+df1=df[0:3], axis=1
+df1=df[0:3]
+df1
+df1=df[[0:3]]
+df.drop([4],axis=1)
+df1=df[4]
+df1
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+y
+X
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+y
+y.unix
+y.unique
+y.values
+y
+y.unique()
+np.unique(y)
+uni=np.unique(y)
+uni
+for i in uni: print i
+for i in uni: print(i)
+for i in uni:
+    j = 0
+    x = j for x in y: where x == i 
+i = len(uni)
+i
+rand.int(3)
+np.random.int(3)
+numpy.random.int(3)
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+numpy.random.int(3)
+import numpy.random as rand
+rand.int(3)
+randint(3)
+rand.randint(3)
+rand.randint(100)
+for i in range(0, len(uni)): array[i]=i
+array
+for i in range(0, len(uni)): print(i)
+array
+array=np.array(len(uqi))
+array=np.array(len(uni))
+array
+for i in range(0, len(uni)): array[i]=i
+for i in range(0, len(uni)-1): array[i]=i
+array=np.array(len(uni))
+for i in range(0, len(uni)-1): array[i]=i
+for i in range(0, len(uni)-1): array[i]+=i
+for i in range(0, len(uni)-1): array[i].append[i]
+array = []
+for i in range(0, len(uni)-1): array[i].append[i]
+for i in range(1, len(uni)): array[i].append[i]
+len(uni)
+for i in range(1, len(uni)): array.append[i]
+for i in range(1, len(uni)): array.append(i)
+for i in range(1, len(uni)): print(uni[i])
+for i in range(1, len(uni)+1): print(uni[i])
+for i in range(0, len(uni)): print(uni[i])
+for i in range(0, len(uni)): y = i+1 where y == uni[i]
+for i in range(0, len(uni)): y = i+1, where y == uni[i]
+y
+where y == uni[i]
+where y = uni[i]
+uni(i)
+uni[i]
+y(where y == uni[i])
+y(if y == uni[i])
+if y = uni[i])
+if y = uni[i]
+if y = uni[i], print(y)
+for i in y, y[i] = 0 if y = uni[i]
+df[4].astype('category')
+df[5]=df[4].cat.codes
+from sklearn.preprocessing import LabelEncoder
+labelencoder = LabelEncoder()
+df[4]
+df[4]=df[4].astype('category')
+df[4]=df[4].cat.codes
+df
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+from matplotlib.colors import ListedColormap
+def plot_decision_regions(X, y, classifier, resolution=0.02):
+    # setup marker generator and color map
+    markers = ('o', 's', '^', 'v', '<')
+    colors = ('red', 'blue', 'lightgreen', 'gray', 'cyan')
+    cmap = ListedColormap(colors[:len(np.unique(y))])
+
+    # plot the decision surface
+    x1_min, x1_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+    x2_min, x2_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+    xx1, xx2 = np.meshgrid(np.arange(x1_min, x1_max, resolution),
+                           np.arange(x2_min, x2_max, resolution))
+                           
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
+np.unique(y)
+y
+%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
+print(df[4].astype('category').cat.codes)
+print(df[4].astype('category'))
+print(df[4])
+df = pd.read_csv(
+'https://archive.ics.uci.edu/ml/''machine-learning-databases/iris/iris.data',header=None, encoding='utf-8')
+print(df[4])
+print(df[4].astype('category'))
+print(df[4].unique())
+print(df[4].astype('category'))
+print(df[4].astype('category').cat.codes)
+%runfile C:/Users/srivi/.spyder-py3/Iris_bookversion.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+np.random.RandomState(32).rand(3)
+np.random.RandomState(32).normal(3)
+np.random.RandomState(32).normal(3,0.5,10)
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+f1
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+df
+df.mean()
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+std
+df[1]
+df.iloc[1]
+x=df.iloc[1]
+df.shape
+df.shape[0]
+df.shape[1]
+nc=df.shape[1]
+mean(0)
+mean.values(0)
+mean
+mean[1]
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+sf1
+sf2
+df[0]
+df[0,axis=1]
+dfg
+df
+df['Feature 1']
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+sf1
+df - mean
+(df - mean)/std
+sf1
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+std_df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+df.istnull()
+df.istnull
+df.isnull()
+df
+df.isnull().sum()
+null_count = df.isnull().sum()
+null_count
+null_count.columns
+null_count.columns()
+null_count
+null_count[ß]
+null_count[0]
+null_count[1]
+null_count[2]
+missing_values = df.isnull()
+missing_values
+df[missing_values]
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+null_count
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+null_count
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+mean
+avg
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+max_price
+df(df['price'].max())
+df[df['price'].max()]
+df[df['price'] == df['price'].max()]
+df['house_id','price'][df['price'] == df['price'].max()]
+df['house_id'][df['price'] == df['price'].max()]
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+x
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+xmax['house_id', 'price']
+xmax
+xmax[['house_id', 'price']]
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+dfmax.index()
+dfmax.index
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+price_persqft = df['price']/df['area']
+price_persqft
+df1=df.insert('price_persqft')+
+df1=df.insert('price_persqft')
+df1=df.insert[price_persqft]
+df1=df.insert[[price_persqft]]
+df1['Price per sqft']=price_persqft
+df1
+df['Price per sqft']=price_persqft
+df
+df['Price per sqft']=int(price_persqft)
+df['Price per sqft']=price_persqft.astype(int)
+df
+high_price = lamda(a in df['price'] if a > avg_price: 1 else 0)
+high_price = lamda(a in df['price'] if a > avg_price 1 else 0)
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df['High price indicator']
+df['High price indicator'].apply(lamda x: 1 if x > avg_price else 0)
+cond=lamda x: 1 if x > avg_price else 0
+df['High price indicator'].apply(lambda x: 1 if x > avg_price else 0)
+avg_price
+df['High price indicator']
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+zscore(df['price'])
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+zscore_area
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+mmscaled
+min
+max
+df['bedrooms']
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+max
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+mmscaled
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df_new
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+data
+bedrooms_mm
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+zscore_area.astype(float)
+zscore_area.astype(float),2
+zscore_area.astype(float,1)
+np.round(zscore_area.astype(float),2)
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+df.summary()
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df_new
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+df
+print(summary(df_new))
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung3.py' --wdir
+dat = df_new
+dat.min(), dat.max(), dat.isna().sum(), dat.nunique(), dat.dtypes, dat.mean()
+%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung3.py' --wdir
+data_summary
+%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
+arr1,arr2
+arr1+arr2
+%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
+arr
+l1 = np.array(50)
+l1
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+l2
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+l2
+l1
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+l1
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+df1
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+X
+y
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+X_train.shape
+y_train.shape
+y_test.shape
+X_test.shape
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+X_train
+X_train.shape
+ss.fit_transform(X_train)
+X_test.shape
+y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+yp_test
+yp_test.shape
+y_test.shape
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+accuracy+
+accuracy
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+y_test
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+X
+rand.RandomState.normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
+X.shape
+X.shape[1]
+rand.RandomState.normal(loc=0, scale=0.01, size=(1 + X.shape[1]))
+random.RandomState.normal(loc=0.0, scale=1.0, size=None)
+numpy.random.RandomState.normal(loc=0.0, scale=1.0, size=None)
+np.random.RandomState.normal(loc=0.0, scale=1.0, size=None)
+np.random.RandomState.normal(loc=0.0, scale=1.0, size=None, random_state=1)
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
+rand.RandomState(1).normal(loc=0.0, scale=0.01, size=X.shape[1])
+rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1)
+%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
