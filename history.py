@@ -1107,3 +1107,60 @@ len(data_new[677])
 %runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
 data_new
 %runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+print(data[0].shape)
+print(data[0].[0]
+print(data[0][0]
+)
+data[0][0].shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+i=0
+j=1
+data[i][j]
+data[i][j].shape
+data[i][j].shape.reshape(8, 8)
+data[i][j].reshape(8, 8)
+data[i][j].reshape(8, 8)..reshape(8, 8)
+data[i][j].reshape(8, 8).shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+np.array(data_new).shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+new[0].shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new = np.array([])
+data_new.shape
+X_new
+X_new.shape
+data_new.append(X_new)
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+X_new.shape
+data_new=X_new
+data_new=np.append(data_new, X_new)
+data_new.shape
+data_new=X_new
+data_new.shape
+data_new=X_new
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+X_new
+X_new.shape
+data_new = X_new
+data_new=np.concatenate(data_new, X_new)
+data_new=np.concatenate((data_new, X_new),axis=0)
+data_new.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+i=0,k=0
+i=0k=0
+i=0
+k=0
+ax[i][k].imshow(data_new[i+k*10],cmap='gray')
+ax[i][k].imshow(data_new[i+k*10].reshape(8,8),cmap='gray')
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+plt.show()
+precision_score(y, y_pred)
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+enumerate(ax.flat)
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir

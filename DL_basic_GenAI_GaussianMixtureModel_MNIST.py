@@ -38,26 +38,31 @@ The Gaussian Distribution
 �(x |μ, σ) = 1/sqrt(2 * πσ**2)e**−((x − μ)**2/2σ**2)
 • Multivariate density
 �(x|μ, Σ) =1/sqrt(2 * π|Σ|)e**−((((x − μ)**T)*Σ**-1(x − μ))/2)
-
-
 '''
 
+# Project goal: to generate new data for each digits from MNIST data
+
+
+
+# load basic libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import numpy.random as rand
 import sklearn 
 
+# load MNIST data from sklearn
 from sklearn.datasets import load_digits
 digits = load_digits(n_class=10)
 print(digits.data.shape)
 
+# visualise a sample image
 import matplotlib.pyplot as plt
 plt.gray()
 plt.matshow(digits.images[0])
 plt.show()
 
-
+# data and label corresponding to each digit
 data = digits.data
 images = digits.images
 labels = digits.target
@@ -95,60 +100,69 @@ data9 = data[np.where(labels == 9)]
 label = [label0,label1,label2,label3,label4,label5,label6,label7,label8,label9]
 data = [data0, data1,data2, data3,data4, data5,data6, data7,data8, data9]
 
-data_new = []
-label_new = []
+# generate a sample of 10 data for each digit and save them
+
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from sklearn.mixture import GaussianMixture as GMM
 
 for i in range(0,10):
-    print(i)
+
     Y = label[i]
     X = data[i]
 
-    from sklearn.mixture import GaussianMixture as GMM
     model = GMM(n_components = 1, n_init = 5, init_params='random', 
             covariance_type='diag', max_iter = 100,random_state=42)#, init_params='k-means++'
-
     model.fit(X)
 
     new = model.sample(10)
     print(new[0].shape)
     X_new = new[0]
     y_new = new[1]
-   
-    data_new.append(X_new)
-    label_new.append(y_new)
+    if i == 0:
+        data_new = X_new
+        label_new = y_new
+    else:
+        data_new = np.concatenate((data_new, X_new),axis=0)
+        label_new =  np.concatenate((label_new, y_new),axis=0)
     
-    plt.imshow(X_new[0].reshape(8, 8), cmap='binary')
-    plt.show()
-    print(y_new[0])
+
+'''#    y_pred = model.predict(X)
+#    y=Y
+#    plt.imshow(X_new[0].reshape(8, 8), cmap='binary')
+#    plt.show()
+#    print(y_new[0])
+# accuracy = accuracy_score(y, y_pred)
+# precision = precision_score(y, y_pred)#, pos_label='0')
+# recall = recall_score(y, y_pred)#, pos_label='0')
+# f1score = f1_score(y, y_pred)#, pos_label='0')
+# print(accuracy)#, precision, recall, f1score)'''
 
 
-y_pred = model.predict(X)
-y=Y
-
-#for dist in range(10):
-#    part = Y[np.where(preds==dist)]
-#    print(part)
 
 
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+# visualise the generated data
+# this works as well: 
 
-accuracy = accuracy_score(y, y_pred)
-#precision = precision_score(y, y_pred)#, pos_label='0')
-#recall = recall_score(y, y_pred)#, pos_label='0')
-#f1score = f1_score(y, y_pred)#, pos_label='0')
+'''
+fig, ax = plt.subplots(10,10,figsize=(10,10))
+for i in range(10):
+    for k in range(10):
+        ax[i][k].imshow(data_new[i+k*10].reshape(8,8),cmap='gray')
+        ax[i][k].axis('off')
+plt.show()
+'''
 
-print(accuracy)#, precision, recall, f1score)
-
+# visualise the generated data
+# another way of plotting
 def plot_digits(data):
     fig, ax = plt.subplots(10, 10, figsize=(8, 8),
                            subplot_kw=dict(xticks=[], yticks=[]))
     fig.subplots_adjust(hspace=0.05, wspace=0.05)
-    for i, axi in enumerate(ax.flat):
-        im = axi.imshow(data[i].reshape(8, 8), cmap='binary')
-        im.set_clim(0, 16)
-plot_digits(digits.data)
-
-
-
+    
+    for i in range(10):
+        for j in range(10):
+            im = ax[i][j].imshow(data_new[i+j*10].reshape(8,8), cmap='binary')
+plt.show()
+plot_digits(data_new)
 
 
