@@ -52,6 +52,7 @@ def zscore(data):
 
 zscore_price = zscore(df['price'])
 zscore_area = zscore(df['area'])
+zscore_price_persqft = zscore(df['Price per sqft'])
 df_new['price']  =  zscore_price
 df_new['area'] = zscore_area
 

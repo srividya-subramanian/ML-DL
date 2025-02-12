@@ -13,15 +13,15 @@ from keras.utils import to_categorical
 from math import e 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
-def perceptron(x, w): 
+def perceptron_npdot(x, w): 
     y = np.dot(x, w)
     return y
 
-def activationfn(y):
+def sigmoid_activationfn(y):
     sig = 1 / (1+e**(-y))
     return sig
 
-def derivativefn(y):
+def derivative_sigmoid_fn(y):
     dsig = e**(-y)/ (1+e**(-y))
     return dsig
 
@@ -31,11 +31,20 @@ def initialise():
     wo = np.random.rand(hiddenLayerSize, outputLayerSize) 
     return wi, wo
 
-def forward_propagation(x,wi,wo):
-    hx = perceptron(x,wi)
-    h  = activationfn(hx)
-    hy = perceptron(h,wo)
-    y_pred = activationfn(hy)
+def initialise():
+    inputLayerSize, hiddenLayerSize, outputLayerSize = 4,32,1
+    wi = np.random.rand(inputLayerSize, hiddenLayerSize) 
+    bi = np.zeros((1, hiddenLayerSize))
+    wo = np.random.rand(hiddenLayerSize, outputLayerSize) 
+    bo = np.zeros((1, outputLayerSize))
+    return wi, wo, bi, bo
+
+
+def forward_propagation(x,wi,wo,bi,bo):
+    hx = perceptron_npdot(x,wi)+bi
+    h  = sigmoid_activationfn(hx)
+    hy = perceptron_npdot(h,wo)+bo
+    y_pred = sigmoid_activationfn(hy)
     return y_pred, h
 
 def error(y, y_pred):
@@ -44,12 +53,12 @@ def error(y, y_pred):
 
 def back_propagation(h, wi, wo, x, y, y_pred,  lr):
     err = error(y, y_pred)
-    dy_pred = err * derivativefn(y_pred)
+    dy_pred = err * derivative_sigmoid_fn(y_pred)
     errh = np.dot(dy_pred, wo.T)
-    dh = errh * derivativefn(h)
+    dh = errh * derivative_sigmoid_fn(h)
     
     wi += np.dot(x.T, dh)*lr
-    wo += np.dot(h.T,y_pred)*lr
+    wo += np.dot(h.T,dy_pred)*lr
     return wi, wo
 
 
@@ -117,7 +126,7 @@ print(accuracy, precision, recall, f1score)
 
 
 
-
+ 
 
 
 

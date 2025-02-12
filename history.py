@@ -1,1374 +1,1109 @@
-# -*- coding: utf-8 -*-
-# *** Spyder Python Console History Log ***
-
-## ---(Tue Nov 19 16:59:22 2024)---
-import sys
-print(sys.version)
-pip show numpy
-print(tensorflow.version)
-print(tensorflow._version_)
-import tensorflow#
-import tensorflow
-pip install tensorflow
-exig
-exit
-import tensorflow as tf
-print(tensorflow.version)
-print(tf.version)
-print(tf._version_)
-print(tf.__version__)
-from tensorflow import datasets
-import tensorflow_datasets as dataset
-from tensorflow.keras import datasets
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-df = pd.read_csv(input/iris.csv)
-df = pd.read_csv(datasets.iris.csv)
-df = pd.read_csv(datasets/iris.csv)
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-dataFolder = 'input/'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-df = pd.read_csv(dataFile)
-dataFolder = 'Downloads/'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-df = pd.read_csv(dataFile)
-pwd
-dataFolder = 'Users/srivi/Downloads/'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-df = pd.read_csv(dataFile)
-dataFolder = 'C:\Users\srivi\Downloads\'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-dataFolder = '\Users\srivi\Downloads\'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-dataFolder = 'Users\srivi\Downloads\'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-dataFolder = 'Downloads\'
-dataFile = dataFolder + "iris.csv"
-print(dataFile)
-df = pd.read_csv(Downloads/iris.csv)
-df = pd.read_csv(Users\srivi\Downloads/iris.csv)
-df = pd.read_csv(Users\srivi\Downloads\iris.csv)
-df = pd.read_csv("Users\srivi\Downloads\iris.csv")
-df = pd.read_csv("Users/srivi/Downloads/iris.csv")
-df = pd.read_csv("C:Users/srivi/Downloads/iris.csv")
-cd ..
-cd Downloads/
-df = pd.read_csv("C:/Users/srivi/Downloads/iris.csv")
-df = pd.read_csv("iris.csv")
-cd ../.spyder-py3/
-ls
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-help, df
-df.top(5)
-df.head(5)
-df.info()
-df.loc
-df.loc(1)
-df.loc(0:2)
-df.loc[0:2]
-x=df.drop('variety', axis=1)
-x.info
-y=df('variety')
-y=df['variety']
-y.info
-y=df['variety']
-DF:COLUMNS
-print(df.columns)
-df.rank()
-df.to_excel('my_df',sheet_name='Sheet1')
-df.to_excel('my_df.xlsx',sheet_name='Sheet1')
-df.shape
-df.indes
-df.index
-df.count
-df.sum
-df.min
-df.describe
-df.describe()
-z=(1,3,5,7,8)
-z.info
+%runfile C:/Users/srivi/.spyder-py3/untitled33.py --wdir
+w =pd.DataFrame([(
+      [0.9,-0.1, 0.1],
+      [-0.2, 0.8, 0.4]
+      )])
+w
+np.array([[1, 2], [3, 4]])
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+w =np.array([[0.9,-0.1, 0.1],[-0.2, 0.8, 0.4]])
+w
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+wsum
+wsum.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+wsum
+len(wsum)
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+y_pred
+zero
+wsum
+zero.tolist
+z =zero.tolist
 z
-z.min()
-z=[1,3,5,7,8]
-z.min()
-z.shape
-zz=np.array(z)
-zz.shape
-zz.min()
-zz.max()
-zz*2
-z*2
-z*3
-zz+5*2
-zz
-zz+5
-zz.max()
-zz*5.max()
-z(z*5).max()
-(zz*5).max()
-zz.sum
-zz.sum()
-(zz*10).sum()
-(zz*10).cumsum()
-zz*10
-zz.mean()
+z =zero.tolist()
+z
+max(zero, wsum)
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+y_üred
+y_pred
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+y_pred
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+pip install chatterbot
+%runfile C:/Users/srivi/.spyder-py3/untitled36.py --wdir
 
-## ---(Tue Dec  3 12:30:50 2024)---
-runfile('C:/Users/srivi/untitled0.py', wdir='C:/Users/srivi')
-[1, 2, 3] + [4, 5]
-schuhe = [('schwarz', 40), ('rot', 38)]
-print(schuhe[1])
-print(schuhe[0][0])
-schuhe += [('braun', 44)]
-farbe, größe = schuhe[2]
-print(farbe)
-print(len(schuhe))
-runfile('C:/Users/srivi/untitled0.py', wdir='C:/Users/srivi')
-
-## ---(Wed Dec  4 09:26:19 2024)---
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print, dollar
-print(dollar)
-print(Dollar)
-print(Euro)
-print(Dollar+Euro)
-print(Dollar,Euro)
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-pip install Numpy
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-
-## ---(Wed Dec  4 10:00:38 2024)---
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print(xx)
-print(xx[0])
-print(xx[*,0])
-print(xx[:,0])
-import numpy
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-arr(*,1)
-arr[*,1]
-arr[0,1]
-import pandas as pd
-df=pd.dataframe(xx)
-df=pd.DataFrame(xx)
-print,df
-df[*,1]
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print, xx
-print, xx.shape()
-print, xx.shape
-print, xx.size
-print, xx.size()
-shape(xx)
-df.shape
-df(*,1)
-df[*,1]
-df.Komponente
-print,df.columns
-Komponente = ['Komponente':"Grafikkarte", "Prozessor", "Festplatte", "Arbeitsspeicher", "Gehäuse"]
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print,xx
-s1 = pd.Series([1, 2, 3])
-s2 = pd.Series([4, 5, 6])
-df = pd.concat([s1, s2], axis=1)
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-df1
-df1+df2
-df2
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-df1+df2
-pd.concat(df1,df2)
-pd.concat([df1,df2])
-pd.concat([df1,df2],axis=1)
-pd.concat([df1,df2,df3],axis=1)
-print(Dollar/Euro)
-print(i/j for i,j in Dollar,Euro)
-print(lamda i,j: i/j for i,j in Dollar,Euro)
-print(i/j for i,j in zip(Dollar,Euro))
-print,Dollar.info()
-print,Dollar.shape
-print,Dollar.size
-print Dollar[0]/Euro[0]
-print, Dollar[0]/Euro[0]
-print(i/j for i,j in Dollar,Euro)
-print,df[0]
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print,df[0]
-print,df
-print,df[,0]
-print,df['Preis in Dollar']
-print,df['Preis in Dollar']/df['Preis in Euro']
-print,average(df['Preis in Dollar']/df['Preis in Euro'])
-print,avg(df['Preis in Dollar']/df['Preis in Euro'])
-exr=df['Preis in Dollar']/df['Preis in Euro']
-print,exr
-print,avg(exr)
-print,exr.info()
-print,exr.avg()
-print,exr.mean()
-print,exr.average()
-exr=df['Preis in Dollar']/df['Preis in Euro'].mean()
-exr
-exr=(df['Preis in Dollar']/df['Preis in Euro']).mean()
-exr
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-pip install statsmodels
-import statsmodels.api as sm
-result = sm.OLS(Dollar, Euro).fit()
-print,result
-print,result.summary()
-result.params
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-plt.scatter(Dollar,Euro)
-plt.show()
-runfile('C:/Users/srivi/.spyder-py3/temp.py', wdir='C:/Users/srivi/.spyder-py3')
-print,exr1, exr2
-plt.plot(Dollar,Euro)
-plt.show()
-plt.plot(Dollar,Euro)
-plt.scatter(Dollar,Euro)
-plt.show()
-plt.scatter(Dollar,Euro)
-Dollar - np.mean(Dollar)
-(Dollar - np.mean(Dollar))*(Euro - np.mean(Euro))
-np.sum((Dollar - np.mean(Dollar))*(Euro - np.mean(Euro)))
-np.sum((Dollar - np.mean(Dollar))*(Euro - np.mean(Euro)))/(Dollar - np.mean(Dollar))**2
-np.sum((Dollar - np.mean(Dollar))*(Euro - np.mean(Euro)))/np.sum(Dollar - np.mean(Dollar))**2
-np.sum((Dollar - np.mean(Dollar))*(Euro - np.mean(Euro)))/np.sum((Dollar - np.mean(Dollar))**2)
-np.mean(Euro) - wechselkurs * np.mean(Dollar)
-wechselkurs=np.sum((Dollar - np.mean(Dollar))*(Euro - np.mean(Euro)))/np.sum((Dollar - np.mean(Dollar))**2)
-np.mean(Euro) - wechselkurs * np.mean(Dollar)
-intercept=np.mean(Euro) - wechselkurs * np.mean(Dollar)
-runfile('C:/Users/srivi/.spyder-py3/untitled0.py', wdir='C:/Users/srivi/.spyder-py3')
-arr1
-arr1 = rnd.randint(10,100,20)
-print,arr1
-arr1 = rnd.randint(10,100,(3,4))
-print,arr1
-arr1 = rnd.randint(10,100,3)
-
-print,arr1
-arr1 = rnd.randint(0,10,5)
-
-
-print,arr1
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-arr1
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-arr1
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-arr1,arr2
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-arr1=np.linspace(10, 100,10)
-arr1
-arr1=int(np.linspace(10, 100,10))
-arr1
-arr1.astype(int)
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-werbung
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-predicted
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-predicted
-stats
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-runfile('C:/Users/srivi/.spyder-py3/untitled1.py', wdir='C:/Users/srivi/.spyder-py3')
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-print, error
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-print, error
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-print,error1, error2
-print, error2
-print error2
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-error2
-error
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-error
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-df
-pd.array(df)
-pd.Array(df)
-[Dollar, Euro]
-[Dollar, Euro].shape
-[Dollar, Euro].shape()
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-erate
-runfile('C:/Users/srivi/.spyder-py3/ubung2.py', wdir='C:/Users/srivi/.spyder-py3')
-runfile('C:/Users/srivi/.spyder-py3/Ubung3.py', wdir='C:/Users/srivi/.spyder-py3')
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-hund
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-hund
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-hund, mensch
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-hund
-runcell(0, 'C:/Users/srivi/.spyder-py3/übung33ü01.py')
-df= pd.concat(hund,mensch)
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-debugfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-
-## ---(Sat Dec  7 15:44:07 2024)---
-runfile('C:/Users/srivi/.spyder-py3/übung33A01.py', wdir='C:/Users/srivi/.spyder-py3')
-runfile('C:/Users/srivi/.spyder-py3/übung33ü01.py', wdir='C:/Users/srivi/.spyder-py3')
-df
-new=df['width','label']
-new=df["width","label"]
-new=df["width"]
-new=df[["width","label"]]
-new
-df.values
-width.values
-df[["width","label"]].values
-df.values
-
-## ---(Mon Dec  9 08:31:29 2024)---
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-test=df['Klasse'=NaN]
-test=df['Klasse'= 'NaN']
-test=df['Klasse'= 'Tulip']
-test=df['Klasse'== 'Tulip']
-test=df[df['Klasse'== 'Tulip']]
-test=df(df['Klasse'== 'Tulip'])
-test=np.where(df['Klasse'== 'Tulip'])
-test=np.where(df['Klasse']== 'Tulip')
-test
-test=df(np.where(df['Klasse']== 'Tulip'))
-df(test)
-df[test]
-test=df(np.where(df['Klasse']== 'Tulip'))
-test=np.where(df['Klasse']== 'Tulip')
-test
-test=df.loc[df['Klasse']== 'Tulip']
-test
-test=df.loc[df['Klasse']== 'NuN']
-test
-df
-test=df.loc[df['Klasse']== 'NaN']
-test
-test=df.loc[df['Klasse']== NaN]
-test=df.loc[df['Klasse']== '']
-test
-test=df.loc[df['Klasse'] != 'Tulip','Rose']
-train=df.loc[df['Klasse'] == 'Tulip','Rose']
-df
-train=df.loc[df['Klasse'] == ['Tulip','Rose']]
-train=df.loc[df['Klasse'] == ('Tulip','Rose')]
-train
-test=df.loc[df['Klasse']== 'Tulip']
-test
-test=df.loc[df['Klasse']== 'Rose']
-test
-test=df.loc[df['Klasse']== ' ']
-test
-test=df.loc[df['Klasse']== 'NaN']
-test
-test=df.loc[df.isna()]
-test=df.loc[df[Klasse].isna()]
-test=df.loc[df['Klasse'].isna()]
-test
-train = df.dropna()
-train
-train = df.dropna().reset_index(drop=True)
-train
-test
-test=df.loc[df['Klasse'].isna()].reset_index(drop=True)
-test
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-X
-y
-model = LinearRegression()
-model.fit(X, y)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-model = LinearRegression()
-
-model.fit(X, y)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-model = LinearRegression()
-
-model.fit(X, y)
-print("Slope:", model.coef_)
-print("Intercept:", model.intercept_)
-model = LinearRegression()
-
-Y=model.fit(X, y)
-Y
-Y.summary()
-Y.summary
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-testX
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-testY
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-testY
-YY= 'Tulip' if testY >= 1.5 else 'Rose'
-testY
-testY=testY.map({testY>= 1.5}: 'Tulip')
-testY=testY.map({testY>= 1.5: 'Tulip'})
-testY= pd.DataFrame(testY)
-testY=testY.map({testY>= 1.5: 'Tulip'})
-round(testY)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-testY
-testY=testY.replace({1:'Rose', 2:'Tulip'})
-testY
-testY=round(testY).replace({1:'Rose', 2:'Tulip'})
-testY
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-prediction
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-prediction
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-prediction
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-prediction
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-testY
-int(testY)
-round(testY)
-round(testY).astype(int)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-prediction
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df
-test
-train
-visualize_data(train)
-visualize_data(df)
-visualize_data(prediction)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-plt.scatter(prediction['Farbintensität'], prediction['Blütenblattgröße'], c=prediction['Klasse'].map(colors))
-plt.scatter(prediction['Farbintensität'], prediction['Blütenblattgröße']
-q
-plt.scatter(prediction['Farbintensität'], prediction['Blütenblattgröße'])
-prediction['Farbintensität']
-prediction['Blütenblattgröße']
-plt.scatter(prediction['Farbintensität'],prediction['Blütenblattgröße'])
-train['Blütenblattgröße']
-train['Farbintensität']
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-
-## ---(Mon Dec  9 14:13:10 2024)---
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-xx=prediction['Farbintensität']
-yy=prediction['Blütenblattgröße']
-plt.scatter(xx,yy)
-plt.show()
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-ll
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-plt.scatter(xx,yy)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-df.klasse
-ll
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung1.py' --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49Ü01.py' --wdir
-w1
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49Ü01.py' --wdir
-
-## ---(Wed Dec 11 13:36:08 2024)---
+## ---(Sun Feb  2 17:27:54 2025)---
+%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
+pip install chatterbot
+python
+pip show python
+pip install tkinter
+%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
+import nltk
+from nltk.chat.util import Chat, reflections
+%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
+import tensorflow keras pickle nltk
+import tensorflow
+import keras
+import nltk, pickle
 %runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-df.head(5)
-df.columns
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-columns
-columns.drop(label)
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-x.head(5)
-X.head(5)
-Y.head(5)
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-X.shape()
+%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
+nltk.download('punkt_tab')
+%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
+intents
+%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
+
+## ---(Mon Feb  3 11:16:35 2025)---
+%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
+y_pred = forward_pass(X,w)
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+y_pred = forward_pass(X,w)
 X.shape
-Y.shape
-Y_train.shape
-X_train.shape
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-result.summary()
-result.summary
-result
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-result
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-print,accuracy_score(Y_test, Y_pred)
-print,recall_score(Y_test, Y_pred)
-print, precision_score(Y_test, Y_pred)
-Y_test
-Y_pred
-pd.DataFrame(Y_pred)
-Y_pred= pd.DataFrame(Y_pred)
-precision = precision_score(Y_test, Y_pred)
-precision = precision_score(Y_test, Y_pred,pos_label=str)
-precision = precision_score(Y_test, Y_pred,pos_label='str')
-precision = precision_score(Y_test, Y_pred,pos_label='Female')
- precision
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-
-## ---(Thu Dec 12 14:18:14 2024)---
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-df.head(5)
-df['label']
-df['label']==0
-df01=df.loc(['label']==0)
-df01.head()
-df01.head(5)
-df01
-df01=df(df.loc(['label']==0))
-df01=df.loc[df['label']==0)]
-df01=df.loc[df['label']==0]
-df01
-df01=df.loc[df['label']==0,1]
-df01=df.loc[df['label']==0]
-df0=df.loc[df['label']==0]
-df1=df.loc[df['label']==1]
-df= pd.concat([df0,df1],axis=0, ignore_index=True)
-df= df.sample(frac=1).reset_index(drop=True)
-df.columns
-df.shape
-df01
-df
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-train.columns
-df.columns
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-Y_train
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-Y_test.shape
-Y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-df.to_numpy
-df.to_numpy.shape
-df.to_numpy.
-xx=df.to_numpy
-xx-shape
-xx.shape
-xx.size
-xx.size()
-size(xx)
-print(xx.shape)
-xx
-print(xx.shape)
-df.values
-%runfile 'C:/Users/srivi/.spyder-py3/Übung49C01.py' --wdir
-th = rand.random(0.5,1,1)
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
-th
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
-th, w1, w2
-float(th)
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
-th, w1, w2
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe412A01.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Übung53Ü01.py' --wdir
-np.random.seed(42)
-weights_input_hidden = np.random.rand(inputLayerSize, hiddenLayerSize) 
-weights_hidden_output = np.random.rand(hiddenLayerSize, outputLayerSize)
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
-weights_input_hidden
-weights_output_hidden
-weights_hidden_output
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/Eigene_Project_chapter7.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Übung55C01.py' --wdir
-targets = np.array([[0], [1], [0], [1]]) # XOR-Targets
-targets
-targets.shape
-train_data = np.array([ 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0] ])
-train_data.shape
-train_data = np.array([ 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0] 
-    [0, 0], 
-[0, 1], 
-[1, 1], 
-[1, 0]])
-train_data = np.array([ 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0] 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0]])
-train_data = np.array([ 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0], 
-    [0, 0], 
-    [0, 1], 
-    [1, 1], 
-    [1, 0]])
-train_data.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-28*28
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-datensatz = X_train[0].split(',') #5
-X_train[0]
-X_train
-X_train.shape
-X_train[0,*]
-X_train[0,784]
-X_train.loc[0,784]
-X_train.iloc[0,784]
-X_train.iloc[0]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-datensatz
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-pixel
-pixel(pixel > 0)
-pixel.iloc(pixel > 0)
-pixel[pixel > 0]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-bildarray
-bildArray
-bildArray.shape
-xbils=bildArray[1:28, 1:28]
-xbils.shape
-plt.imshow(xbils, cmap='Greys') #8
-plt.show() #9
-xbils.reshape(3,3)
-xbils.reshape((3,3))
-print()
-xbils.shape
-xb=np.array(3,3)
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-train
-train.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-trainx= X_train
-trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
-trainX= X_train
-trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
-trainX.shape[0]
-trainX.values.shape[0]
-trainX.values.shape
-trainX= X_train.values
-trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
-Y_train.shape
-Y_train.values
-Y_train
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-Y_train.values
-dfY_train.values
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-X_train[*,1:28,1:28]
-X_train[,1:28,1:28]
-X_train[12665,1:28,1:28]
-w1 = np.random.rand(10, 784) - 0.5
-w1.shape
-
-wih = np.random.rand(H_KNOTEN, I_KNOTEN) - 0.5
-who = np.random.rand(O_KNOTEN, H_KNOTEN) - 0.5
-wih.shape, who.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-print(forward_propagation(train_inputs, wi, wo)[0])
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-y_pred
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-error
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_test
-X_traomin
-X_train
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-X_test.shape
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/project1.py --wdir
-Y_pres
-Y_pred
-Y_test
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-Y_pred, Y
-Y_pred, Y_test
-Y_pred.shape, Y_test.shape
-Y_pred[0]
-Y_pred[0:20]
-Y_test
-Y_test[20]
-Y_test[0:20]
-Y_test[0:70]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-Y_test[0:70]
-Y_pred[0:20]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-Y_pred[0:20]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-y_pred.shape
-y_pred[1,:]
-y_pred[1]
-y_test.shape
-Y_test.shape
-Y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-yy
-yy.len
-yy.shape
-yy.shape[:]
-yy.shape[:,1]
-yy.shape[:,0]
-Y_train.shape[:,0]
-Y_train.shape
-Y_test.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-yy
-avg(yy)
-yy.mean
-np.mean(yy)
-np.mean(yy,axis=1)
-yyyy = np.mean(yy,axis=1)
-yyyy[0:30]
-yy
-yy[0:0]
-yy[0:20]
-y_pred
-y_pred[0:50]
-Y_train[0:50]
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-error
-print(Y_train[0:20], y_pred[0:20])
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-yy
-yy[1]
-np.mean(yy[1])
-np.mean(yy)
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-Y_pred
-Y_pred.shape
-Y_pred[1]
-Y_pred[0]
-Y_pred[0,:]
-Y_pred[0:20,:]
-Y_pred
-YY
-yy
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-precision = precision_score(Y_test, Y_pred, pos_label='0')
-recall = recall_score(Y_test, Y_pred, pos_label='0')
-f1score = f1_score(Y_test, Y_pred, pos_label='0')
-
-print(accuracy, precision, recall, f1score)
-precision = precision_score(Y_test, Y_pred)
-precision
-accuracy = accuracy_score(Y_test, Y_pred)
-precision = precision_score(Y_test, Y_pred)#, pos_label='0')
-recall = recall_score(Y_test, Y_pred)#, pos_label='0')
-f1score = f1_score(Y_test, Y_pred)#, pos_label='0')
-
-print(accuracy, precision, recall, f1score)
-Y_pred, Y_test
-len(Y_test)
-Y_pred = np.array(len(Y_test))
-Y_pred
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-len(Y_test)
-Y_test
-Y_test.shape
-Y_pred = np.array(len(Y_test))
-Y_pred.shape
-Y_pred = np.array(len(Y_test))
-Y_pred.shape
-Y_pred = np.array[]*len(Y_test)
-Y_pred = np.array[] * len(Y_test)
-Y_pred = np.array[0] * len(Y_test)
-Y_pred = [0] * len(Y_test)
-Y_pred
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-datalist
-grayscale
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-datalist[0:100]
-greyscale[0:100]
-data[0:100]
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-pixelcount
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-datalist
-datalist > 100
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-new
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-datalist.shape
-datalist
-np.size(datalist)
-np.len(datalist)
-np.size(datalist)
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-pixel
-datalist[0]
-datalist[1]
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-pixelcount
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-print(pixelcount)
-%runfile 'C:/Users/srivi/.spyder-py3/Übung71Ü01.py' --wdir
-x=numbers()
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-x=numbers()
-x
-x.shape
-np.size(x)
-x.size
-x.size()
-len(x)
-size(x)
-x
-x.shape
-x.itemsize
-np.shape(x)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-x
-x.shape
-x.shape()
-np.size(x)
-np.size(train_inputs)
-x
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wi
-wo
-train_outputs
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-x
-train_inputs
-train_outputs
-wi
-y_pred, h = forward_propagation(train_inputs, wi, wo)
-np.dot(train_inputs, wi)
-wi.shape
-train_inputs.shape
-np.shape(train_inputs)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe55A01.py --wdir
-wi
-x
-train_inputs
-train_inputs.shape
-wi.shape
-%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
-X_train.shape
-wi.shape
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-train_inputs
-train_inputs.shape
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-train_inputs.shape
-train_inputs
-train.shape
-train.info
-train_inputs
-train_inputs.shape
-np.shape(train_inputs)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-train_inputs
-train_inputs.shaüe
-train_inputs.shape
-np.shape(train_inputs)
-np.shape(w1)
-np.shape(wi)
-X_train
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-np.shape(train_inputs)
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-y_pred
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-train_inputs.shape
-train_outputs.shape
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-accuracy
-yy
-Y_pred
-yy
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-accuracy
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-
-## ---(Mon Dec 16 19:27:59 2024)---
-%runfile C:/Users/srivi/untitled0.py --wdir
-array
-%runfile C:/Users/srivi/untitled0.py --wdir
-avg
-min(array)
-max(array)
-%runfile C:/Users/srivi/untitled0.py --wdir
-array_new
-%runfile C:/Users/srivi/untitled0.py --wdir
-sorted_array
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-df.info
-df.summary
-df.summary()
-df.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-df-mean(axis = 0)
-df.mean(axis = 0)
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-values.shape
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-values.shape
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-values.shape
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-print,df_new
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-df
-df.shape
-df.head(5)
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-print(df['Income'].mean(axis = 0))
-df.head(5)
-print(df['Income'].mean)
-print(df.columns)
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-print(df['Income'].mean)
-print(df['Income'].mean,axis=0)
-print(df['Income'].mean,axis=1)
-df['Income'].mean
-df['Income']
-df['Income'].mean()
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung1Ü02.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled3.py --wdir
-df
-df.columns
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-X[:50, 0]
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wi
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wo
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-w1
-wo
-wi
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-rand.uniform(0.1,0.3,size=(2,3))
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wi
-np.random.uniform(0.01,0.3,size=(15,10))
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wi
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung2.py' --wdir
-wi
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-rand.rand(3)* 0.01
-rand.rand(3)
-rand.rand(30)
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-w = rand.rand(0.001,0.01,4)
-rand.uniform(0.1,0.3,size=(2,3))
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-rand.uniform(0.1,0.3,size=(4,) )
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-w = rand.uniform(0.001,0.01,size=(4,))
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-x.size
-x.shape
+w,shape
+w,´.shape
 w.shape
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-y, y_pred
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+y_pred.shape
 y
-y.values
-y.value
-y
-y, y_pred
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-y, y_pred
+y.shape
+n = len(y)
+n
+err = calculate_error(y, y_pred)
+err. shape
+y.shape
+x.shape
+X.shape
+w. shape
+w
+err
+x * err
+X * err
+X.shape
+err.shape
+np.dot(x,err)
+np.dot(X,err)
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+np.dot(xX,err) * lr
+np.dot(X,err) * lr
+w
+x
+X.shape, w.shape, np.dot(x,err).shape
+X.shape, w.shape, np.dot(X,err).shape
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+w
+w_new
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+w_new
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+error
+error.shape
+error.shape()
+%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
+w
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+train.shape
+test.shape
+test.head(5)
+test['label']
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+w1
+max(w1)
+np.max(w1)
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+X_train.shape
+w.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+2w
+w
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+w.shape
+X_train.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+y_train.shape
+y_pred.shape
+y_pred = forward_pass(X_train,w)
+y_pred.shape
+y_pred
+np.dot(X_train,w)
+train.drop('label', axis=1).T
+(train.drop('label', axis=1).T).shape
+w.shape
+np.dot((train.drop('label', axis=1).T),w)
+w.dot(train.drop('label', axis=1).T)
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+y_pred
+y_pred.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+y_pred.shape
+y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+y_pred.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+y.shape
+y_pred.shape
+y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+weights.shape
+images.shape
+softmax(np.dot(images, weights))
+softmax(np.dot(images, weights)).shape
+predictions.shape
+predictions = predict(images, weights)
+predictions.shape
+labels.shape
+train_labels[:1000]
+train_labels[:1000].shape
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+w1.shape
+w2.shape
+a1.shape
+a1
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+y_pred.shape
+x_train.shape
+X_train.shape
+z1.shape, z2.shape
+Y=y_train
+X= x_train
+X= X_train
+w1
+gradient_descent(X, Y, iterations, alpha)
+z1 = w1.dot(X) + b1
+a1 = ReLU(z1)
+z2 = w2.dot(a1) + b2
+a2 = softmax(z2)
+one_hot_Y = np.zeros((Y.size, Y.max() + 1))
+one_hot_Y.shape
+one_hot_Y.head(5)
+one_hot_Y[np.arange(Y.size), Y] = 1
+one_hot_Y.shape
+one_hot_Y = one_hot_Y.T
+one_hot_Y.shape
+m,n
+a1
+z1
+a2
+z2
+labels = np.eye(10)[train_labels[:1000]]
+labels.shape
+predictions.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+np.dot(x,err)
+np.dot(X_train,err)
+err
+err.shape
+X_train.shape
+error.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+error.shape
+predictions.shape
+error = predictions - labels
+error.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+w.shape
+b.shape
+y_pred
+y_pred.shape
+y_train.shape
+err = (y_pred - y)
+err = (y_pred - y_train)
+err.shape
+X_train.shape
+np.dot(X_train,err)
+np.dot(X_train,err.T)
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+err = (y_pred - y).transpose()
+err
+err.shape
+err.T.shape
+np.dot(X_train,err)
+X_train.shape, err.shape
+error.shape, images.shape
+np.dot(images.T, error)
+np.dot(X_train,err.T)
+np.dot(X_train.T,err)
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+X_train.shape, err.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+neuron_idx
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+visualize_weights(trained_weights, 2)  # Neuron für die Ziffer "2"
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+visualize_weights(w, 1)  # Neuron für die Ziffer "2"
+visualize_weights(w, 0)  # Neuron für die Ziffer "2"
+visualize_weights(w, 3)  # Neuron für die Ziffer "2"
+visualize_weights(w, 4)  # Neuron für die Ziffer "2"
+visualize_weights(w, 5)  # Neuron für die Ziffer "2"
+%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
+visualize_weights(w, 0)  # Neuron für die Ziffer "2"
+visualize_weights(w, 1)  # Neuron für die Ziffer "2"
+visualize_weights(trained_weights, 2)  # Neuron für die Ziffer "2"
+visualize_weights(w, 3)  # Neuron für die Ziffer "2"
+visualize_weights(w, 4)  # Neuron für die Ziffer "2"
+visualize_weights(w, 5)  # Neuron für die Ziffer "2"
+visualize_weights(w, 9)  # Neuron für die Ziffer "2"
+visualize_weights(w, 8)  # Neuron für die Ziffer "2"
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+w
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+from chatterbot import ChatBot
+pip install chatterbot
+pip install SpeechRecognition
+install gTTS
+pip install gTTS
+pip install transformers
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+import pytorch
+pip install pytorch
+pip install Pyrebase4
+pip install pytorch
+pip install pytorch --no-binary :all:
+    
+pip install pytorch --no-binary :all
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+pip install tflearn
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+import nltk
+from nltk.stem.lancaster import LancasterStemmer
+stemmer = LancasterStemmer()
+import tflearn
+pip uninstall tflearn
+pip install git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
+pip install git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+intents
+intents['tag']
+intent['tag']
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+training
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+bag
+pattern_words
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+training.shape
+training.to_array()
+training
+np.array(training)
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+st
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+st
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+training
+training[:,0]
+training[0,:]
+bag
+output_row
+pattern_words
+words
+classes
+output_row
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+training
+training.shape
+len(training)
+len(training[0])
+len(training[1])
+len(training[2])
+len(training)
+random.shuffle(training)
+np.array(training)
+training = np.array(training, dtype="object")
+training.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+pip install git+https://github.com/tflearn/tflearn.git
+len(train_y[0]
+)
+len(train_x[0]
+)
+training.shape
+list(training[:,0])
+len(list(training[:,0]))
+len(list(training[:,1))
+len(list(training[:,1]))
+input_shape = [train_x.shape[1]]
+input_shape =[train_x.shape[1]]
+train_x.shape[1]
+len(train_x)
+input_shape = [training.shape[1]]
+input_shape
+len(train_x[0])
+len(train_y[0])
+(training[:,0])
+(training[:,0]).shape
+train_x = list(training[:,0])
+len(train_x[0])
+len(train_y[0])
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+len(train_x)
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+train_x.shape
+train_x
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+train_x.shape
+train_x[0]
+train_x[1]
+train_x[26]
+len(list(train_x[26]))
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+train_x
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+train_y
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+tx.shape
+len(tx)
+len(ty)
+len(train_x)
+len(train_y)
+tx[0]
+ty[0]
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+tf.enable_eager_execution()
+print(tf.__version__)
+tf.enable_eager_execution()
+tf.compat.v1.enable_eager_execution()
+%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
+prediction = nn.predict_scores(X_val[0])[0]    
+print ("Scores")
+print (prediction)    
+np.argmax(prediction)
+
+predict_class = nn.predict(X_val[0])[0]
+predict_class    
+
+y_val[0]
+X_val
+i=1    
+prediction = nn.predict_scores(X_val[i])[0]    
+print ("Scores")
+print (prediction)    
+np.argmax(prediction)
+
+predict_class = nn.predict(X_val[i])[0]
+predict_class    
+
+y_val[0]
+y_val[i]
+i=5    
+prediction = nn.predict_scores(X_val[i])[0]    
+print ("Scores")
+print (prediction)    
+np.argmax(prediction)
+
+predict_class = nn.predict(X_val[i])[0]
+predict_class    
+
+y_val[i]
+%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_Activation_Functions_NN.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+print(rf.predict(p))
+p
+p = bow("is your shop open today?", words)
+p
+print(p)
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+print (p)
+words
+len(words)
+enumerate(words)
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+print(rf.predict(p))
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+p
+len(p)
+train_x
+train_x[0]
+train_x[0].shape
+len(train_x[0])
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+p
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+print(rf.predict(list(p)))
+sentence = "is your shop open today?"
+p = bow(sentence, words)
+test = np.array(p, dtype="object")
+test = list(test)
+#p = p.reshape(-1, 1))
+print (p)
+#print (classes)
+
+print(rf.predict(test))
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+print(rf.predict(test))
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+import pickle
+pickle.dump( {'words':words, 'classes':classes, 'train_x':train_x, 'train_y':train_y}, open( "training_data", "wb" ) )
+%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
+one_hot_labels
+one_hot_labels.shape
+one_hot_labels[10,*]
+one_hot_labels(10,*)
+one_hot_labels(10,:)
+one_hot_labels[10,:]
+one_hot_labels[0:10,:]
+labels
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+images, labels = (x_train[0:1000].reshape(1000,28*28)/255, y_train[0:1000])
+labels
+one_hot_labels = np.zeros((len(labels),10))
+one_hot_labels[0:10,:]
+enumerate(labels)
+len(images)
+len(images)/batch_size
+i=1
+(i * batch_size),((i+1)*batch_size)
+images.shape
+layer_0.shape
+dropout_mask
+layer_0 = images[batch_start:batch_end]
+layer_1 = perceptron(layer_0,weights_0_1)
+layer_1 = relu(layer_1)
+dropout_mask = np.random.randint(2,size=layer_1.shape)
+def perceptron(x, w): 
+    return np.dot(x, w)
+    
+def perceptron(x, w): 
+    
+return np.dot(x, w)
+    
+def perceptron(x, w): 
+    return np.dot(x, w)
+    
+layer_0 = images[batch_start:batch_end]
+layer_1 = perceptron(layer_0,weights_0_1)
+layer_1 = relu(layer_1)
+dropout_mask = np.random.randint(2,size=layer_1.shape)
+dropout_mask
+layer_1
+layer_1 *= dropout_mask * 2
+layer_1
+layer_2 = perceptron(layer_1,weights_1_2)
+correct_cnt
+%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
+labels_0, layer_2
+labels_0 - layer_2
+(labels_0 - layer_2).round(3)
+(labels_0 - layer_2).round(1)
+(labels_0 - layer_2).round(2)
+(labels_0 - layer_2).round(3)
+(labels_0 - layer_2).round(2)
+%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+i=0,l=1
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+i=0,l=1
+i=0l=1
+i=0
+l=1
+data[i][l]
+data
+data[i], data[l]
+data[i,l]
+data(i,l)
+data[i][l]
+i
+l
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+rows
+cols
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+data
+data.shape
+data[0,1]
+data[0,0]
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+i
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+ii
+jj
+jj.int
+int(ii)
+data_new = [ii,jj]
+data_new
+np.array(data_new)
+int(data_new)
+data_new.int
+data_new.astype(int)
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+data_new
+data_new.shape
+data_new.T
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+data_new.T
+data_new
+data_new.shape
+labels
+labels.astype(int)
+labels.astype(int).T
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+ypred
+y_pred
+w1
+w2
+x
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+terr
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+terr
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+x.shape, deltay.shape
+X
+x.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+x.shape
+X
+x
+x * deltay
+deltay
 y
 y_pred
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/ML_Ubung2Ü01_bookversion.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-X
-df
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-y
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-X
-X.shape
-X.columns
-df.columns
-df.drop('4')
-df.drop('4',axis=0)
-df.drop('4',axis=1=
-df.drop('4',axis=1)
-df1=df.drop('4',axis=1)
-df['0']
-df
-df[4]
-df.drop([4],axis=1)
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-X
-y
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-df[:3]
-df[:3, axis=0]
-df[:3, axis=1]
-df[0:3, axis=1]
-df[:3], axis=1
-df1=df[:3], axis=1
-df1=df[0:3], axis=1
-df1=df[0:3]
-df1
-df1=df[[0:3]]
-df.drop([4],axis=1)
-df1=df[4]
-df1
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-y
-X
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-y
-y.unix
-y.unique
-y.values
-y
-y.unique()
-np.unique(y)
-uni=np.unique(y)
-uni
-for i in uni: print i
-for i in uni: print(i)
-for i in uni:
-    j = 0
-    x = j for x in y: where x == i 
-i = len(uni)
-i
-rand.int(3)
-np.random.int(3)
-numpy.random.int(3)
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-numpy.random.int(3)
-import numpy.random as rand
-rand.int(3)
-randint(3)
-rand.randint(3)
-rand.randint(100)
-for i in range(0, len(uni)): array[i]=i
-array
-for i in range(0, len(uni)): print(i)
-array
-array=np.array(len(uqi))
-array=np.array(len(uni))
-array
-for i in range(0, len(uni)): array[i]=i
-for i in range(0, len(uni)-1): array[i]=i
-array=np.array(len(uni))
-for i in range(0, len(uni)-1): array[i]=i
-for i in range(0, len(uni)-1): array[i]+=i
-for i in range(0, len(uni)-1): array[i].append[i]
-array = []
-for i in range(0, len(uni)-1): array[i].append[i]
-for i in range(1, len(uni)): array[i].append[i]
-len(uni)
-for i in range(1, len(uni)): array.append[i]
-for i in range(1, len(uni)): array.append(i)
-for i in range(1, len(uni)): print(uni[i])
-for i in range(1, len(uni)+1): print(uni[i])
-for i in range(0, len(uni)): print(uni[i])
-for i in range(0, len(uni)): y = i+1 where y == uni[i]
-for i in range(0, len(uni)): y = i+1, where y == uni[i]
-y
-where y == uni[i]
-where y = uni[i]
-uni(i)
-uni[i]
-y(where y == uni[i])
-y(if y == uni[i])
-if y = uni[i])
-if y = uni[i]
-if y = uni[i], print(y)
-for i in y, y[i] = 0 if y = uni[i]
-df[4].astype('category')
-df[5]=df[4].cat.codes
-from sklearn.preprocessing import LabelEncoder
-labelencoder = LabelEncoder()
-df[4]
-df[4]=df[4].astype('category')
-df[4]=df[4].cat.codes
-df
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-from matplotlib.colors import ListedColormap
-def plot_decision_regions(X, y, classifier, resolution=0.02):
-    # setup marker generator and color map
-    markers = ('o', 's', '^', 'v', '<')
-    colors = ('red', 'blue', 'lightgreen', 'gray', 'cyan')
-    cmap = ListedColormap(colors[:len(np.unique(y))])
-
-    # plot the decision surface
-    x1_min, x1_max = X[:, 0].min() - 1, X[:, 0].max() + 1
-    x2_min, x2_max = X[:, 1].min() - 1, X[:, 1].max() + 1
-    xx1, xx2 = np.meshgrid(np.arange(x1_min, x1_max, resolution),
-                           np.arange(x2_min, x2_max, resolution))
-                           
-%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
-np.unique(y)
-y
-%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/Projekt_Iris.py --wdir
-print(df[4].astype('category').cat.codes)
-print(df[4].astype('category'))
-print(df[4])
-df = pd.read_csv(
-'https://archive.ics.uci.edu/ml/''machine-learning-databases/iris/iris.data',header=None, encoding='utf-8')
-print(df[4])
-print(df[4].astype('category'))
-print(df[4].unique())
-print(df[4].astype('category'))
-print(df[4].astype('category').cat.codes)
-%runfile C:/Users/srivi/.spyder-py3/Iris_bookversion.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-np.random.RandomState(32).rand(3)
-np.random.RandomState(32).normal(3)
-np.random.RandomState(32).normal(3,0.5,10)
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-f1
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-df
-df.mean()
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-std
-df[1]
-df.iloc[1]
-x=df.iloc[1]
-df.shape
-df.shape[0]
-df.shape[1]
-nc=df.shape[1]
-mean(0)
-mean.values(0)
-mean
-mean[1]
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-sf1
-sf2
-df[0]
-df[0,axis=1]
-dfg
-df
-df['Feature 1']
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-sf1
-df - mean
-(df - mean)/std
-sf1
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-std_df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-df.istnull()
-df.istnull
-df.isnull()
-df
-df.isnull().sum()
-null_count = df.isnull().sum()
-null_count
-null_count.columns
-null_count.columns()
-null_count
-null_count[ß]
-null_count[0]
-null_count[1]
-null_count[2]
-missing_values = df.isnull()
-missing_values
-df[missing_values]
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-null_count
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-null_count
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-mean
-avg
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-max_price
-df(df['price'].max())
-df[df['price'].max()]
-df[df['price'] == df['price'].max()]
-df['house_id','price'][df['price'] == df['price'].max()]
-df['house_id'][df['price'] == df['price'].max()]
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-x
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-xmax['house_id', 'price']
-xmax
-xmax[['house_id', 'price']]
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-dfmax.index()
-dfmax.index
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-price_persqft = df['price']/df['area']
-price_persqft
-df1=df.insert('price_persqft')+
-df1=df.insert('price_persqft')
-df1=df.insert[price_persqft]
-df1=df.insert[[price_persqft]]
-df1['Price per sqft']=price_persqft
-df1
-df['Price per sqft']=price_persqft
-df
-df['Price per sqft']=int(price_persqft)
-df['Price per sqft']=price_persqft.astype(int)
-df
-high_price = lamda(a in df['price'] if a > avg_price: 1 else 0)
-high_price = lamda(a in df['price'] if a > avg_price 1 else 0)
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df['High price indicator']
-df['High price indicator'].apply(lamda x: 1 if x > avg_price else 0)
-cond=lamda x: 1 if x > avg_price else 0
-df['High price indicator'].apply(lambda x: 1 if x > avg_price else 0)
-avg_price
-df['High price indicator']
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-zscore(df['price'])
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-zscore_area
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-mmscaled
-min
-max
-df['bedrooms']
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-max
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-mmscaled
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df_new
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-data
-bedrooms_mm
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-zscore_area.astype(float)
-zscore_area.astype(float),2
-zscore_area.astype(float,1)
-np.round(zscore_area.astype(float),2)
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-df.summary()
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df_new
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-df
-print(summary(df_new))
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung3.py' --wdir
-dat = df_new
-dat.min(), dat.max(), dat.isna().sum(), dat.nunique(), dat.dtypes, dat.mean()
-%runfile 'C:/Users/srivi/.spyder-py3/Teilprüfung3.py' --wdir
-data_summary
-%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
-arr1,arr2
-arr1+arr2
-%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
-arr
-l1 = np.array(50)
-l1
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-l2
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-l2
-l1
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-l1
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-df1
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-X
-y
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-X_train.shape
-y_train.shape
-y_test.shape
-X_test.shape
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-X_train
-X_train.shape
-ss.fit_transform(X_train)
-X_test.shape
-y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-yp_test
-yp_test.shape
-y_test.shape
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-accuracy+
-accuracy
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-y_test
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-X
-rand.RandomState.normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
-X.shape
-X.shape[1]
-rand.RandomState.normal(loc=0, scale=0.01, size=(1 + X.shape[1]))
-random.RandomState.normal(loc=0.0, scale=1.0, size=None)
-numpy.random.RandomState.normal(loc=0.0, scale=1.0, size=None)
-np.random.RandomState.normal(loc=0.0, scale=1.0, size=None)
-np.random.RandomState.normal(loc=0.0, scale=1.0, size=None, random_state=1)
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
-rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1 + X.shape[1])
-rand.RandomState(1).normal(loc=0.0, scale=0.01, size=X.shape[1])
-rand.RandomState(1).normal(loc=0.0, scale=0.01, size=1)
-%runfile C:/Users/srivi/.spyder-py3/Transferaufgabe3A01_ML.py --wdir
+x * deltay * alpha
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+w
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+terr
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+terr
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
 %runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled19.py --wdir
+test_correct_cnt
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+speed = pd.DataFrame(rand.uniform(0,200,1000))
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+X_train.shape, y_train.shape, X_test.shape, y_test.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+X_train.shape, y_train.shape, X_test.shape, y_test.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+y_pred.shape, y_trian.shape
+y_pred.shape, y_train.shape
+y_pred.reshape(1)
+y_pred.reshape(-1)
+(y_pred.reshape(-1)).shape
+y_pred.shape, y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+err
+err.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+err
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+w0.shape
+wo.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+err.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+err.shape
+wo.shape
+derivative_sigmoid_fn(y_pred)
+derivative_sigmoid_fn(y_pred).shape
+%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+data
+data.T
+np.array(data)
+np.array(data).T
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+y
+y.shape
+data.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+X.shape, y.shape
+X
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+y_pred
+y_pred.shape
+y.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+err.shape
+err
+ypred.shape
+y_pred.shape, y.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+err
+err.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+deltao.shape, wo.T.shape, wo.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+x.shape
+X.shape
+wi.shape
+np.dot(X,wi).shpae
+np.dot(X,wi).shape
+np.dot(X,wi)+bi.shape
+bi.shape
+(np.dot(X,wi)+bi).shape
+hx = perceptron_npdot(x,wi)+bi
+h  = sigmoid_activationfn(hx)
+hy = perceptron_npdot(h,wo)+bo
+y_pred = (sigmoid_activationfn(hy)).reshape(-1)
+h.shape
+hx.shaüe
+hx.shape
+x=X
+hx = perceptron_npdot(x,wi)+bi
+h  = sigmoid_activationfn(hx)
+hy = perceptron_npdot(h,wo)+bo
+y_pred = (sigmoid_activationfn(hy)).reshape(-1)
+hx.shape, h.shape, hy.shape, y_pred.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled25.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+d_predicted_output.shape
+weights_hidden_output.shape
+d_predicted_output.dot(weights_hidden_output.T).shape
+err.shape
+deltao.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+err.shape
+y.shape
+np.array([[0], [1], [0], [1], [0], [1]]).shape
+np.array(Art).T.shape
+np.array([[5.1, 3.5, 1.4, 0.2], 
+              [7.0, 3.2, 4.7, 1.4], 
+              [4.6, 3.1, 1.5, 0.2], 
+              [6.5, 2.8, 4.6, 1.5], 
+              [5.0, 3.6, 1.4, 0.2], 
+              [5.7, 2.8, 4.5, 1.3]]).shape
+X.shape
+np.array(Art).T.reshape(1)
+np.array(Art).T.reshape(1,1)
+np.array(Art).T.reshape(6,1)
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled25.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+[y.round(2), y_pred.round(1)]
+%runfile 'C:/Users/srivi/.spyder-py3/DL_Übung76ü01_NN_FPBP_myworkingversion.py' --wdir
+y_pred
+%runfile 'C:/Users/srivi/.spyder-py3/DL_Übung76ü01_NN_FPBP_myworkingversion.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+y_train.shape
+y_pred.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+y_pred.shape
+y_train.shape
+y_train
+y_pred
+%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
+import tensorflow.data.Dataset
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+pip install tensorflow_datasets
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+import keras
+import tensorflow as tf
+from keras.preprocessing.image import ImageDataGenerator
+import tf.keras.preprocessing.image.ImageDataGenerator
+import tensorflow as tf
+import tf.keras.preprocessing.image.ImageDataGenerator
+import tensorflow.keras.preprocessing.image.ImageDataGenerator
+from keras.preprocessing.image import ImageDataGenerator
+from keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+import glob
+import glob
+data = glob.glob(dataset_path)
+dataset_path = "Users/srivi/Documents/ML_data/cat_dog/training_set/cats/*.jpg"
+import glob
+data = glob.glob(dataset_path)
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+images
+images.value
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+images
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+plot_image_grid(cat_files[:16])
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+images = [tf_keras.preprocessing.image.load_img(img) for img in train_cat_files]
+plot_image_grid(train_cat_files[0:16])
+images
+images.shape
+images[0]
+images[0].shape
+len(images[0])
+plt.imshow(images[0])
+plt.show()
+plt.imshow(images[1])
+plt.show()
+plt.imshow(images[12)
+plt.imshow(images[12])
+plt.show()
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+train_cat_files
+train_cat_data = [tf_keras.preprocessing.image.load_img(img) for img in train_cat_files]
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+y_train
+train_cat_data[0]
+train_cat_data[0].flatten()
+print("train size: {} cats and {} dogs".format(len(train_cat_data), len(train_dog_data)))
+print("test size :  {} cats and  {} dogs".format(len(test_cat_data), len(test_dog_data)))'
+print("train size: {} cats and {} dogs".format(len(train_cat_data), len(train_dog_data)))
+print("test size :  {} cats and  {} dogs".format(len(test_cat_data), len(test_dog_data)))
+train_cat_data = train_cat_data[0:3999]
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+train_cat_dataset_path
+cd train_cat_dataset_path
+training_set = train_datagen.flow_from_directory(train_cat_dataset_path,
+                                                 target_size = (64, 64),
+                                                 batch_size = 32,
+                                                 class_mode = 'binary')
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+train_generator
+train_generator.samples
+train_generator.data
+train_generator[0]
+train_generator[0].shape
+len(train_generator[0]=
+len(train_generator[0])
+train_generator[0][0]
+train_generator[0][0].shape
+train_generator[0][1].shape
+train_generator = train_datagen.flow_from_directory(train_dataset_path, target_size = IMG_SIZE,
+                                                   # classes=['Cat' , 'Dog'],
+                                                    class_mode='binary',
+                                                    batch_size=BATCH,
+                                                    #save_to_dir=aug_data_path,
+                                                    #save_prefix='aug_',
+                                                    #save_format="jpg",
+                                                    seed = 1
+                                                    )
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+train_generator[0][0].shape
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+train_generator[0][0].shape
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.models import Sequential,Conv2D, MaxPooling2D,Flatten,Dense
+from tensorflow.python.keras.layers import Conv2D, MaxPooling2D,Flatten,Dense
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+test_dog_data.shape
+len(test_dog_data)
+test_dog_data[0]
+xx=test_dog_data[0]
+xx.shape
+import os, cv2, glob
+import opencv as cv2
+pip install opencv
+import opencv
+import cv2
+pip install opencv-python
+import opencv
+import cv2
+img = cv2.imread(train_generator[0])
+from skimage.io import imread, imshow
+img = imread(train_generator[0])
+img = imread(train_generator)
+test_dog_data[0]
+test_dog_data[0].shaper
+test_dog_data[0].shape
+from PIL import Image
+img = process_image(Image.open(test_dog_data[0]))
+from numpy import asarray
+asarray(test_dog_data[0])
+asarray(test_dog_data).shape
+asarray(test_dog_data).shape()
+xx=asarray(test_dog_data)
+xx=asarray(test_dog_data[0])
+xx.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df2
+df1
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df1
+df2
+df = [df1,df2]
+df
+df = [df1,df2,axis=0]
+df_m =df1.append(df2, ignore_index=True)
+df_m = pd.concat([df1, df2], ignore_index=True, sort=False)
+df_m
+df_m.shape
+df_m.drop([df.index[8006]])
+df_m.drop([8006])
+df_m = pd.concat([df1, df2], ignore_index=True, sort=False).drop([8006]).sample(frac = 1)
+df_m.shape
+df_m
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df_m = pd.concat([df1, df2], ignore_index=True, sort=False).drop([8006]).sample(frac = 1).reset_index()
+df_m
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+print(dogs[:5])
+from torchvision import transforms
+pip install torchvision
+from torchvision import transforms
+from torchvision.datasets import ImageFolder
+transform = transforms.Compose([transforms.Resize((50,50)),
+                                transforms.ToTensor(),
+                                transforms.Normalize(mean, std)])
+dataset = ImageFolder(DATA_DIR+'/training_set', transform=transform)
+test_dataset = ImageFolder(DATA_DIR+'/test_set', transform=transform)
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+dataset
+dataset.shape
+dataset[0]
+dataset[0].shape
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+img, label = dataset[0]
+print(img.shape, label)
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+len(dataset)
+from torch.utils.data import Dataset, DataLoader
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+(train_features, train_targets), (test_features, test_targets) = mnist.load_data()
+train_features.shape
+train_loader
+train_loader[0]
+train_loader[0].shape
+dataset[0].shape
+print(img.shape, label)
+print(img.shape)
+dataset[0]
+np.array(dataset[0])
+np.array(img)
+np.array(img).shape
+np.array(img).flatten().shape
+img2 = Image.fromarray(img.reshape(200,300,3), 'RGB')
+img.shape
+img2 = Image.fromarray(img.reshape(28,28,3), 'RGB')
+import tensorflow as tf
+from tensorflow import keras
+
+(images_train, labels_train), (images_test, labels_test) = tf.keras.datasets.mnist.load_data()
+images_train
+images_train.shape
+dataset
+dataset[0]
+dataset[0].shape
+train_generator.shape
+train_generator[0].shape
+train_cat_data.shape
+train_cat_data[0].shape
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled29.py --wdir
+112/4
+%runfile C:/Users/srivi/.spyder-py3/untitled29.py --wdir
+print(photos.shape, labels.shape)
+photo
+photo.shape
+if photo.shape[-1] == 3: print(photo.shape)
+image = skimage.color.rgb2gray(photo)
+import skimage
+image = skimage.color.rgb2gray(photo)
+image.shape
+plt.plot, image
+show_example(*image)
+def show_example(img, label):
+    print('Label: ', dataset.classes[label], "("+str(label)+")")
+    plt.imshow(img)
+    #plt.imshow(img.permute(1, 2, 0))
+    plt.show()
+    
+show_example(*image)
+show_example(image)
+image.imshow(image)
+pixel =image
+greyscale = [pixel if pixel > 120 else 0 for pixel in pixel]
+bildArray = np.array(pixel, dtype=int).reshape((28, 28)) #7
+
+plt.imshow(bildArray, cmap='Greys') #8
+plt.show() #9
+max(pixel)
+image.shape
+plt.imshow(image, cmap='Greys') #8
+plt.show() #9
+minmax(image)
+arr = image
+numpy.max(arr)
+np.max(arr)
+np.min(arr)
+save('dogs_vs_cats_photos.npy', photos)
+save('dogs_vs_cats_labels.npy', labels)
+%runfile C:/Users/srivi/.spyder-py3/untitled29.py --wdir
+photos = load('dogs_vs_cats_photos.npy')
+labels = load('dogs_vs_cats_labels.npy')
+photos.shaüe
+photos.shape
+file
+%runfile C:/Users/srivi/.spyder-py3/untitled29.py --wdir
+photos.shape
+photos.reshape(-1)
+photos.reshape(25000, 28, 28,-1)
+photo.reshape(25000, 28, 28,-1)
+photos.reshape(25000, 28, 28,-1)
+xx=photos.reshape(25000, 28, 28,-1)
+xx.shape
+xx=photos.reshape(25000, 28, 28)
+xx.shape
+photo.shape
+greyphoto.shape
+img_to_array(greyphoto).shape
+greyphoto
+%runfile C:/Users/srivi/.spyder-py3/untitled29.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+labels.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+labels
+photos.shape#
+(train_features, train_targets), (test_features, test_targets) = mnist.load_data()
+train_features.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+photos.shape#
+labels.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+hx.shape
+x.shape
+wi.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+bi.shape
+xx=perceptron_npdot(x,wi)+bi
+hx.shape
+ho.shape
+perceptron_npdot(x,wi)
+x.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+hx.shape
+print(perceptron_npdot(x,wi))+bi
+%runfile C:/Users/srivi/.spyder-py3/untitled30.py --wdir
+X.shape
+y.shape
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+
+## ---(Wed Feb 12 09:15:36 2025)---
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+hx.shape
+X.shape
+wi.shape
+x=X
+hx=perceptron_npdot(x,wi))+bi)
+hx=perceptron_npdot(x,wi))+bi
+hx=perceptron_npdot(x,wi)+bi
+ho  = relu_activationfn(hx)
+hx.shape
+np.min(hx)
+np.min(wi)
+wi
+hx
+hx.shape
+relu_activationfn(hx)
+sigmoid_activationfn(hx)
+%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
+data
+%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
+data.shape
+data.data.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
+digits.data
+digits.data.shape
+digits.images
+digits.images.shape
+digits.labels
+digits.target
+digits.targets
+digits.target
+%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+X.shape
+data.shape
+images.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+X.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+preds.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+preds.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new.shape
+data_new[0]
+data_new[0].shape
+data_new[1].shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+X_new..reshape(8, 8)
+X_new.reshape(8, 8)
+X_new.reshape(100,8, 8)
+xx=X_new.reshape(100,8, 8)
+xx.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+labels
+labels.drop['0']
+labels.drop[0,axis=0]
+labels.shape
+np.delete(labels, np.where(
+    (labels = 5))[0], axis=0)
+np.delete(labels, np.where(
+    (labels == 5))[0], axis=0)
+np.delete(labels, np.where((labels == 0))[0], axis=0)
+data(np.delete(labels, np.where((labels == 0))[0], axis=0))
+np.delete(data, np.where((labels == 0))[0], axis=0)
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+np.(data, np.where((labels == 0))[0], axis=0)
+(data, np.where((labels == 0))[0], axis=0)
+data, np.where((labels == 0))[0]
+data, np.where((labels == 0))
+labels, np.where((labels == 0))
+labels(np.where(labels == 0))
+labels[np.where(labels == 0)]
+data[np.where(labels == 0)]
+labels[np.where(labels == 1)]
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+labels[np.where(labels == 1)]
+labels[np.where(labels == 2)]
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+label
+label[0]
+data[0]
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+X_new.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+label1.shape
+data1.shape
+y_new.shape
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new
+data_new.shape
+len(data_new)
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+len(data_new)
+len(data_new[0])
+data_new.shape
+data_new.shae
+len(data_new[010])
+len(data_new[10])
+len(data_new[100])
+len(data_new[677])
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+data_new
+%runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
