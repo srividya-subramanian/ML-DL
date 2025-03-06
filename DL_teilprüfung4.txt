@@ -1,0 +1,133 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 25 06:36:04 2025
+
+@author: srivi
+"""
+You are employed as a data scientist at a company that wants to develop a new 
+app for personalized news. To better understand users' interests and preferences,
+a deep learning model will be developed to analyze user data and recommend 
+personalized content. As user privacy is of paramount importance, the model is
+to be trained using federated learning so that the data remains on the users'
+devices. Your task is to develop a concept for training such a model. 
+Consider the following steps: 
+
+
+
+Key steps required for creating a Data Science solution: 
+
+1. Define the exact problem - identify the goal and objectives. Goal here is to
+create a news recommendation system
+2. Data collection - define data that are necessary for this project and create
+a strategy to collect them in the right format 
+3. Data processing - convert the raw data to an usable format
+4. Explorary Data Analysis (EDA) - understand the data property and relationships
+5. choose the compatible algorithm - define the required approaches for
+generating recommedations 
+6. Train and evaluate the model
+7. Deploy the recommedation system
+8. Monitor the performance, get feedback and update the system
+ 
+
+a) Develop a strategy on how you would define the data structure for the user 
+data to capture relevant features for the deep learning model without revealing 
+sensitive information. 
+
+All personal data including for example race, religion, sexual orientation, health
+records, biometric informations etc are senstive. Hence I will not be collecting 
+them for this recommendation system. Non-sensitive data that one can collect, 
+that are relavent for this system, should also be anonymised
+
+Examples of relevant non-sensitive data are
+1. User interation data and previous user interation history if available 
+- news categories, amount of time the user spent on articles, number of shares 
+in social media, his/her comments, date and time, geographic data etc
+2. News contents and respective metadata
+
+These infomation can be stored in embedding format to minimise the exposure to
+personal sensitive data
+
+b) Formulate a plan on how to train the model on the users' devices without the 
+data leaving the device. Describe how the models can be aggregated and updated 
+from the devices. 
+
+For this purpose one could use encrypted federated learning techniques. 
+
+Federated learning works as follows :
+
+Model initialization - global model is sent to multiple clients (devices like
+smartphones or local servers)
+
+Local training - each client trains the model on its own private dataset for a 
+few epochs.
+
+Model update sharing - clients send only model weight updates (gradients) back 
+to the central server.
+
+Aggregation - the central server aggregates updates from all clients 
+(e.g., using Federated Averaging (FedAvg))
+
+Global model update - the new aggregated model is sent back to clients, and the 
+cycle repeats.
+
+Privacy Considerations:
+
+Differential Privacy: adding noise to the gradients or model updates can help 
+protect user privacy.
+
+Homomorphic Encryption: This is another technique to perform computations on 
+encrypted data to ensure that model updates are secure during the aggregation 
+process.
+
+
+c) Explain how you would ensure the quality of the trained model without having 
+access to the actual user data. 
+
+Few steps to ensure the quality of a trained model in Federated Learning:
+
+ - use strong pre-trained models and test on simulated data
+ - validate models locally on devices before aggregation
+ - monitor secure aggregation to prevent bias and privacy leaks
+ - deploy A/B testing and user feedback loops for evaluation
+ - continuously update to handle new data 
+
+
+d) Develop a method to generalize the model to new or unknown user data that 
+emerges after the initial training.  
+
+Generalising the model is most important, so that the model can work well with 
+new data, which is unknown to the model.
+ 
+Few ways to generalise the developed method:
+1. Continuous exposure/training of the model to new oncoming news 
+2. Learning metadata can help the model to understand many facets of data, 
+thereby making the system quickly learn/adapt new data
+3. Train the model to wide range of data with many users whose preferences could 
+be even mutually exclusive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

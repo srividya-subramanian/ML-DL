@@ -1,0 +1,72 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb 27 09:40:01 2025
+
+@author: srivi
+"""
+
+ 
+How RNN (Recurrent Neural Network) Works
+RNNs are a type of neural network designed for sequential data, such as text, 
+speech, and time series. Unlike traditional feedforward networks, RNNs maintain 
+a memory of previous inputs through hidden states.
+
+1️⃣ The Core Idea of RNN
+RNNs process data sequentially and pass information from previous steps to 
+influence the current step.
+
+Each time step receives an input 𝑥𝑡 and a hidden state ht from the previous step.
+The hidden state acts as a memory of past information.
+The network updates its hidden state using a weight matrix and a non-linear activation function.
+
+Mathematical Formula:
+ht =tanh(Wx * xt +Wh* h(t−1)+b)
+yt =Wy* ht +by​
+ 
+Where:
+
+ht  is the hidden state at time step 𝑡
+xt  is the input at time 𝑡
+𝑊𝑥,𝑊ℎ,𝑊𝑦  are weight matrices.
+𝑏,𝑏𝑦  are biases.⁡
+tanh (or ReLU) is an activation function.
+
+2️⃣ Step-by-Step Process
+
+Initialize the hidden state h0  (usually as zeros)
+Process the first input x1  and update the hidden state h1
+​Pass h1 to the next time step along with x2
+​Repeat this process for all time steps
+At the last time step, output yt is generated.
+📌 Key Feature: RNNs allow previous information to influence future predictions, 
+making them ideal for tasks where order matters.
+
+3️⃣ Example: Predicting the Next Word
+Sentence: "The cat sat on the __."
+
+RNN Flow:
+x1  → "The" → h1
+x2  → "cat" → h2
+x3  → "sat" → h3
+​x4  → "on" → h4
+​x5  → Predicts the next word → "mat"
+
+4️⃣ Limitations of Basic RNNs
+✅ Captures short-term dependencies
+❌ Struggles with long-term dependencies (due to vanishing gradient problem)
+❌ Difficulty in remembering information from many time steps ago
+
+🚀 Solution? Use LSTMs (Long Short-Term Memory) or GRUs (Gated Recurrent Units),
+ which improve memory handling.
+
+5️⃣ Where Are RNNs Used?
+🔹 Text Generation (e.g., Chatbots, Auto-complete)
+🔹 Speech Recognition (e.g., Siri, Google Assistant)
+🔹 Machine Translation (e.g., Google Translate)
+🔹 Time Series Forecasting (e.g., Stock Market Predictions)
+
+🔹 Summary
+✅ RNNs process sequential data by maintaining a memory of past inputs.
+✅ They update a hidden state at each time step to influence the next step.
+✅ While effective for short-term memory, they struggle with long-term 
+dependencies, which is why LSTMs/GRUs are often preferred.

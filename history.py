@@ -1,204 +1,3 @@
-%runfile C:/Users/srivi/.spyder-py3/untitled33.py --wdir
-w =pd.DataFrame([(
-      [0.9,-0.1, 0.1],
-      [-0.2, 0.8, 0.4]
-      )])
-w
-np.array([[1, 2], [3, 4]])
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-w =np.array([[0.9,-0.1, 0.1],[-0.2, 0.8, 0.4]])
-w
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-wsum
-wsum.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-wsum
-len(wsum)
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-y_pred
-zero
-wsum
-zero.tolist
-z =zero.tolist
-z
-z =zero.tolist()
-z
-max(zero, wsum)
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-y_üred
-y_pred
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-y_pred
-%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
-pip install chatterbot
-%runfile C:/Users/srivi/.spyder-py3/untitled36.py --wdir
-
-## ---(Sun Feb  2 17:27:54 2025)---
-%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
-pip install chatterbot
-python
-pip show python
-pip install tkinter
-%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
-import nltk
-from nltk.chat.util import Chat, reflections
-%runfile C:/Users/srivi/.spyder-py3/chatbot.py --wdir
-import tensorflow keras pickle nltk
-import tensorflow
-import keras
-import nltk, pickle
-%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
-nltk.download('punkt_tab')
-%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
-intents
-%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
-
-## ---(Mon Feb  3 11:16:35 2025)---
-%runfile C:/Users/srivi/.spyder-py3/untitled0.py --wdir
-y_pred = forward_pass(X,w)
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-y_pred = forward_pass(X,w)
-X.shape
-w,shape
-w,´.shape
-w.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-y_pred.shape
-y
-y.shape
-n = len(y)
-n
-err = calculate_error(y, y_pred)
-err. shape
-y.shape
-x.shape
-X.shape
-w. shape
-w
-err
-x * err
-X * err
-X.shape
-err.shape
-np.dot(x,err)
-np.dot(X,err)
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-np.dot(xX,err) * lr
-np.dot(X,err) * lr
-w
-x
-X.shape, w.shape, np.dot(x,err).shape
-X.shape, w.shape, np.dot(X,err).shape
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-w
-w_new
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-w_new
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-error
-error.shape
-error.shape()
-%runfile C:/Users/srivi/.spyder-py3/untitled1.py --wdir
-w
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-train.shape
-test.shape
-test.head(5)
-test['label']
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-w1
-max(w1)
-np.max(w1)
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-X_train.shape
-w.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-2w
-w
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-w.shape
-X_train.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-y_train.shape
-y_pred.shape
-y_pred = forward_pass(X_train,w)
-y_pred.shape
-y_pred
-np.dot(X_train,w)
-train.drop('label', axis=1).T
-(train.drop('label', axis=1).T).shape
-w.shape
-np.dot((train.drop('label', axis=1).T),w)
-w.dot(train.drop('label', axis=1).T)
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-y_pred
-y_pred.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-y_pred.shape
-y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-y_pred.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-y.shape
-y_pred.shape
-y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-weights.shape
-images.shape
-softmax(np.dot(images, weights))
-softmax(np.dot(images, weights)).shape
-predictions.shape
-predictions = predict(images, weights)
-predictions.shape
-labels.shape
-train_labels[:1000]
-train_labels[:1000].shape
-%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
-w1.shape
-w2.shape
-a1.shape
-a1
-%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
-y_pred.shape
-x_train.shape
-X_train.shape
-z1.shape, z2.shape
-Y=y_train
-X= x_train
-X= X_train
-w1
-gradient_descent(X, Y, iterations, alpha)
-z1 = w1.dot(X) + b1
-a1 = ReLU(z1)
-z2 = w2.dot(a1) + b2
-a2 = softmax(z2)
-one_hot_Y = np.zeros((Y.size, Y.max() + 1))
-one_hot_Y.shape
-one_hot_Y.head(5)
-one_hot_Y[np.arange(Y.size), Y] = 1
-one_hot_Y.shape
-one_hot_Y = one_hot_Y.T
-one_hot_Y.shape
-m,n
-a1
-z1
-a2
-z2
-labels = np.eye(10)[train_labels[:1000]]
-labels.shape
-predictions.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-np.dot(x,err)
-np.dot(X_train,err)
-err
-err.shape
-X_train.shape
-error.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-error.shape
-predictions.shape
-error = predictions - labels
 error.shape
 %runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
 w.shape
@@ -1164,3 +963,513 @@ precision_score(y, y_pred)
 %runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
 enumerate(ax.flat)
 %runfile C:/Users/srivi/.spyder-py3/DL_basic_GenAI_GaussianMixtureModel_MNIST.py --wdir
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+print(accuracy)#, precision, recall, f1score)
+accuracy = accuracy_score(y, y_pred)
+print(accuracy)#, precision, recall, f1score)
+y_pred
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+wo
+wi, wo, bi, bo = initialise()
+wi
+X = photos.reshape(25000,3136)
+y = labels.reshape(25000,1)
+
+def initialise():
+    ipLayerSize, hdLayerSize, opLayerSize = 3136,32,1
+    wi = np.random.rand(ipLayerSize, hdLayerSize) 
+    bi = np.zeros((1, hdLayerSize))
+    wo = np.random.rand(hdLayerSize, opLayerSize) 
+    bo = np.zeros((1, opLayerSize))
+    print(wi.shape, wo.shape, bi.shape, bo.shape)
+    return wi, wo, bi, bo
+    
+wi.shape
+hx = perceptron_npdot(x,wi)+bi
+ho  = relu_activationfn(hx)
+yh = perceptron_npdot(ho,wo)+bo
+y_pred = (softmax_activationfn(yh))
+y_pred = softmax_activationfn(yh)
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+y_pred
+y
+y_pred_2
+y_pred_2.shape
+wi = np.random.rand(3136,1) 
+bi = np.zeros((1, 1))
+y_pred_2 = forward_propagation_2(X,wi,bi)
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+
+## ---(Thu Feb 13 05:37:25 2025)---
+%runfile 'C:/Users/srivi/.spyder-py3/DL_teilprüfung2.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
+tokens
+tokens.shape
+len(token)
+len(tokens)
+input_dataset
+target_dataset
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+error = error(Y_train, y_pred)
+print(Y_train[0:20], y_pred[0:20])
+yy, h = forward_propagation(X_test, wi, wo, bi, bo)
+Y_train
+Y_train.shape
+y_pred.shape
+y_pred[0,:]
+%runfile C:/Users/srivi/.spyder-py3/DL_MNIST_NN_SwamiKannanNeural-Network-from-scratch-Numpy_GitHub.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_MNIST_CNN_bookversion.py --wdir
+layer_2
+layer_2.shape
+y_pred
+layer_2
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+Y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+x.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+error(y, y_pred).shape
+y.shape
+y_pred.shape
+y_batch.shape
+y_train_shuffled.shape
+Y_train_onehot.shape
+Y_train.shape
+%runfile C:/Users/srivi/.spyder-py3/Project_mnist.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled3.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_image_array_conversion_NN.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+tokenized_docs
+vocab
+vocab = {word for doc in tokenized_docs for word in doc}
+vocab
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+vocab
+tokens
+tokenized_docs
+bow_vectors
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+all words
+all_words
+all_words1 = [word for review in documents for word in tokenize(review)]
+all_words1
+all_words1.shape
+len(all_words1), len(aa_words)
+len(all_words1), len(all_words)
+all_words1
+all_words
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+len(all_words1), len(all_words)
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+len(all_words1), len(all_words)
+vocab
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+y.shape
+y_train.shape
+X_train.shape
+y_test.shape
+y_pred.shape
+y_train
+y_pred
+y_pred.round(1)
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+wi.shape
+X_train.shape
+X_test.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+print(y_test)
+print(y_pred)
+%runfile C:/Users/srivi/.spyder-py3/untitled6.py --wdir
+print(y_test)
+print(y_pred)
+%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_TF-IDF_NLP.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_RNN_spam_nonspam_chatgpt.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled17.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
+z
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+df.shape
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+df
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+review.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+data.shape
+data
+len(data)
+len(label)
+documents
+%runfile C:/Users/srivi/.spyder-py3/untitled22.py --wdir
+document
+documents
+labels
+ratings
+tokenized_docs
+documents[0]
+documents[10]
+import spacy
+import numpy as np
+
+# Load spaCy's pre-trained word embeddings
+nlp = spacy.load("en_core_web_md")  # Medium model with word vectors
+pip install spacy
+import spacy
+
+import numpy as np
+
+# Load spaCy's pre-trained word embeddings
+nlp = spacy.load("en_core_web_md")  # Medium model with word vectors
+documents
+%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
+vocabulary = ["amazing", "boring", "exciting", "awful", "great"] 
+word_embeddings = generate_random_word_embeddings(vocabulary)
+vvocabulary
+vocabulary
+documents
+%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
+vocabulary
+word_embeddings = generate_random_word_embeddings(vocabulary)
+word_embeddings
+sentences = ["The movie was amazing and exciting", "The movie was boring and awful"] 
+labels = [5, 1, 3, 5, 1, 3, 5, 1]  # 1 für positiv, 0 für negativ 
+
+training_data = np.array([apply_identity_matrix(average_word_vectors(sentence, word_embeddings)) for sentence in sentences]) 
+training_labels = np.array(labels)
+%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
+word_vector
+%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
+sentence
+avg_word_vector
+avg_word_vector = average_word_vectors(sentences, word_embeddings)
+%runfile C:/Users/srivi/.spyder-py3/DL_movie_review_rating.py --wdir
+bow_vectors
+vocabulary = ["amazing", "boring", "exciting", "awful", "great", "worst", "best", 'enjoyable', 'decent'] 
+word_embeddings = generate_random_word_embeddings(vocabulary)
+word_embeddings
+word_embeddings.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
+word_embeddings
+%runfile 'C:/Users/srivi/.spyder-py3/DL_übung129A01_simpleRNN_NLP.py' --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_autograd_tensorflow.py --wdir
+tap = tf.GradientTape()
+y = x**2 + 3*x + 5
+print(tape.gradient(y, x))
+print(tap.gradient(y, x))
+with tf.GradientTape() as tape:
+    y = x**2 + 3*x + 5  # Function: f(x) = x^2 + 3x + 5
+
+# Compute dy/dx
+grad = tape.gradient(y, x)
+%runfile 'C:/Users/srivi/.spyder-py3/DL_übung129A01_simpleRNN_NLP.py' --wdir
+print("Predicted :", predictions)
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+data.shape
+len(data)
+data
+batch_size = 32
+time_steps = 50
+input_dim = 1
+epochs = 100
+freq = np.random.uniform(0.1, 1.0, (batch_size, 1))  # Random frequency
+phase = np.random.uniform(0, 2 * np.pi, (batch_size, 1))  # Random phase
+time = np.linspace(0, 10, time_steps)  # Time steps
+data = np.sin(freq * time + phase)  # Sinusoidal pattern
+data.shape
+def generate_time_series(batch_size, time_steps):
+    freq = np.random.uniform(0.1, 1.0, (batch_size, 1))  # Random frequency
+    phase = np.random.uniform(0, 2 * np.pi, (batch_size, 1))  # Random phase
+    time = np.linspace(0, 10, time_steps)  # Time steps
+    data = np.sin(freq * time + phase)  # Sinusoidal pattern
+    return np.expand_dims(data, axis=-1)  # Shape: (batch_size, time_steps, 1)
+    
+X_train = generate_time_series(batch_size, time_steps)
+y_train = generate_time_series(batch_size, time_steps)  # Target (can be shifted for forecasting)
+y_train.shape
+x_train.shape
+X_train.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+t1
+t1.data
+%runfile C:/Users/srivi/.spyder-py3/untitled31.py --wdir
+word_embeddings = {word: np.zeros(3) for word in vocab}
+word_embeddings
+vocab = ["Apple","Banana","Orange","Mango","Pineapple"]
+print({word: i for i, word in enumerate(sorted(all_words))})
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+embeddings
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+transition_matrix
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+sent2output
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+words
+words =  tokenize(sentence)
+words
+print(sum(word_embeddings[word] for word in words if word in word_embeddings))
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+word_embeddings
+words
+word_embeddings[word]
+vocab
+%runfile C:/Users/srivi/.spyder-py3/untitled33.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+np.zeros(len(vocab))
+target = np.zeros(len(vocab))
+    target[word_to_idx[actual_next_word]] = 1
+target = np.zeros(len(vocab))
+target[word_to_idx[actual_next_word]] = 1  # Set actual word to 1
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+sum(word_embeddings[word] for word in words if word in word_embeddings)
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+vocab = ["blue", "cloudy", "sunny", "rainy", "sky"]
+word_to_idx = {word: i for i, word in enumerate(vocab)}  # Word to index mapping
+target = np.zeros(len(vocab))
+    target[word_to_idx[actual_next_word]] = 1  # Set actual word to 1
+target[word_to_idx[actual_next_word]] = 1
+target = np.zeros(len(vocab))
+target[word_to_idx[actual_next_word]] = 1
+vocan
+vocab
+target = np.zeros(len(vocab))
+target
+word_to_idx
+target[word_to_idx[actual_next_word]] = 1
+target[word_to_idx[actual_next_word]] 
+word_to_idx[actual_next_word]
+vocab[actual_next_word]
+vocab
+sent2output
+row_vector = np.array([[1, 3, 2]])
+col_vector = np.array([[2], [0], [1]])
+row_vector.dot(col_vector)
+col_vector.dot(row_vector)
+np.dot(row_vector, col_vector)
+np.dot(col_vector, row_vector)
+np.outer(col_vector, row_vector)
+np.outer(row_vector, col_vector)
+target = np.zeros(len(vocab))
+   target[word_to_idx[actual_next_word]] = 1
+target = np.zeros(len(vocab))
+
+target[word_to_idx[actual_next_word]] = 1
+target = np.zeros(len(vocab))
+
+target[word_to_idx(actual_next_word)] = 1
+word_to_idx
+target = np.zeros(len(vocab))
+target[word_to_idx["sun"]] = 1
+target = np.zeros(len(vocab))
+target[word_to_idx["blue"]] = 1
+target
+for i in word_to_idx:
+    if i == actual_next_word:
+       target[word_to_idx(actual_next_word)] = 1 
+    else:
+        target = target
+        
+target
+word_to_idx = {word: i for i, word in enumerate(vocab)}  # Word to index mapping
+for i in word_to_idx:
+
+    if i == actual_next_word:
+       target[word_to_idx(actual_next_word)] = 1 
+    else:
+        target = target
+        
+target
+word_to_idx = {word: i for i, word in enumerate(vocab)}  # Word to index mapping
+target = np.zeros(len(vocab))
+target
+for i in word_to_idx:
+
+    if i == actual_next_word:
+       target[word_to_idx(actual_next_word)] = 1 
+    else:
+        target = target
+        
+target
+%runfile C:/Users/srivi/.spyder-py3/untitled32.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled36.py --wdir
+transition_matrix
+sent2output
+%runfile c:/users/srivi/.spyder-py3/untitled38.py --wdir
+text = open(path)
+%runfile c:/users/srivi/.spyder-py3/untitled38.py --wdir
+text
+%runfile c:/users/srivi/.spyder-py3/untitled38.py --wdir
+lines
+lines.shape
+len(lines)
+%runfile c:/users/srivi/.spyder-py3/untitled38.py --wdir
+data
+len(lines)
+%runfile c:/users/srivi/.spyder-py3/untitled38.py --wdir
+%runfile c:/users/srivi/.spyder-py3/untitled40.py --wdir
+%runfile c:/users/srivi/.spyder-py3/untitled41.py --wdir
+sequence_length, _ = X.shape
+sequence_length, _
+X.shape
+sequence_length
+_
+h_t = np.zeros((self.hsize, 1))  # Initial hidden state
+c_t = np.zeros((self.hsize, 1))  # Initial cell state
+h_t = np.zeros((hsize, 1))  # Initial hidden state
+c_t = np.zeros((hsize, 1))  # Initial cell state
+t = 1
+x_t = X[t].reshape(-1, 1)  # Get current timestep input
+
+# Concatenate hidden state and input
+concat = np.vstack((h_t, x_t))
+concat.shape
+h_t.shape, x_t.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled43.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled44.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled46.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled47.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled48.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/DL_CaseStudy1317C01.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled50.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled51.py --wdir
+print(y_pred)
+print(targets[i])
+print(y_pred.data)
+%runfile C:/Users/srivi/.spyder-py3/untitled51.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled50.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled52.py --wdir
+vocab
+%runfile C:/Users/srivi/.spyder-py3/untitled52.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled53.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled52.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled53.py --wdir
+w2i
+idx
+idxs
+indices
+%runfile C:/Users/srivi/.spyder-py3/untitled53.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled54.py --wdir
+input_data.shape
+train_data.shape
+len(train_data)
+len(train_target)
+len(predictions)
+len(batch_target)
+batch_input = torch.tensor(input_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.long)
+batch_target = torch.tensor(target_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.float)
+
+optimizer.zero_grad()
+input_data = train_data
+batch_size=500
+iter_loss = 0
+n_batches = len(input_data) // batch_size
+n_batches
+b_i = 1
+batch_input = torch.tensor(input_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.long)
+batch_target = torch.tensor(target_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.float)
+target_data = train_target
+batch_input = torch.tensor(input_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.long)
+
+batch_target = torch.tensor(target_data[b_i*batch_size:(b_i+1)*batch_size], dtype=torch.float)
+len(batch_target)
+len(batch_input)
+optimizer.zero_grad()
+            predictions = model(batch_input).squeeze(1)  # Ensure correct shape
+            loss = criterion(predictions, batch_target)
+len(predictions)
+predictions = model(batch_input)
+len(predictions)
+%runfile C:/Users/srivi/.spyder-py3/untitled54.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled55.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled56.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+index
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+seq_indices
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+rnn
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+(np.random.randn(hidden_size, input_size)).shape
+input_size = 10 #dimension of the embedding layer to 10 
+hidden_size = 20 
+output_size = 1
+seq_length = 1000
+vocab_size = 15
+(np.random.randn(hidden_size, input_size)).shape
+(np.random.randn(hidden_size, hidden_size)).shape
+input.shaüe
+input.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled59.py --wdir
+softmax(y_pred).shape, np.eye(15)[targets].T.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled59.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled60.py --wdir
+self.Wxh, inputs[t]
+%runfile C:/Users/srivi/.spyder-py3/untitled60.py --wdir
+inputs
+np.dot(self.Wxh:t, inputs[t])
+np.dot(self.Wxh.T, inputs[t])
+%runfile C:/Users/srivi/.spyder-py3/untitled60.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled59.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled57.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled56.py --wdir
+%runfile c:/users/srivi/.spyder-py3/untitled61.py --wdir
+self.embedding_dim
+embedding_dim=128
+np.random.randint(0, 26, size=50)
+inputs = np.random.randint(0, 26, size=50)
+vocab_size=26
+embedding = np.random.randn(vocab_size, embedding_dim) * 0.01
+embedding.shape
+inputs
+idx=9
+embedding[idx].reshape(-1, 1)
+embedding[idx].shape
+embedding[idx].reshape(-1, 1).shape
+%runfile c:/users/srivi/.spyder-py3/untitled62.py --wdir
+y_t
+y_t.shape
+x_t.shape
+%runfile c:/users/srivi/.spyder-py3/untitled61.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled64.py --wdir
+X_data
+Y_data
+data
+X_tensor
+X_tensor.shape
+X_data.shape
+len(X_data)
+data.shape
+len(data)
+%runfile C:/Users/srivi/.spyder-py3/untitled64.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled65.py --wdir
+pip install datasets
+%runfile C:/Users/srivi/.spyder-py3/untitled65.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled70.py --wdir
+df.shape
+%runfile C:/Users/srivi/.spyder-py3/untitled70.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled65.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled70.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled72.py --wdir
+loss, accuracy = model.evaluate(X_test, y_test)
+%runfile C:/Users/srivi/.spyder-py3/untitled73.py --wdir
+pd. set_option('display. max_columns', None)
+pd.set_option('display. max_columns', None)
+import pandas as pd
+pd.set_option('display. max_columns', None)
+pd.set_option('display.max_columns', None)
+print("Matrix:", matrix)  # Tokenized matrix
+matrix
+pd.set_option('display.max_columns')
+%runfile C:/Users/srivi/.spyder-py3/untitled73.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled72.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled77.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled78.py --wdir

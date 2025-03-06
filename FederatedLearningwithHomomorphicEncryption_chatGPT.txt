@@ -1,0 +1,369 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 25 05:17:14 2025
+
+@author: srivi
+"""
+
+Homomorphic Encryption for Privacy-Preserving Secure Aggregation in Federated 
+Learning
+
+
+
+Introduction
+
+Federated Learning (FL) is a decentralized approach where multiple clients train 
+a shared model locally on their devices and only send aggregated updates 
+(e.g., gradients or model parameters) to a central server. However, sharing 
+these updates, even in aggregated form, poses privacy risks, as an adversary could 
+infer sensitive information from individual updates.
+
+Homomorphic Encryption (HE) enables secure aggregation by allowing computations 
+directly on encrypted data, meaning:
+
+The server never sees the raw updates.
+The final aggregate result can be decrypted only by an authorized entity (e.g., the FL server).
+The individual contributions remain private.
+
+
+
+Basic Principles of Homomorphic Encryption
+Homomorphic encryption (HE) is a form of encryption that supports computations 
+on ciphertexts. If Enc(x) represents an encrypted value of x, then an HE scheme 
+allows operations such as:
+
+Addition: Enc(x)+Enc(y)=Enc(x+y)
+Multiplication: Enc(x)*Enc(y)=Enc(x*y) (supported in Fully Homomorphic Encryption)
+
+For secure aggregation in FL, additive homomorphic encryption (AHE) is sufficient, 
+as it enables summing encrypted model updates without decryption.
+
+A widely used HE scheme is Paillier Homomorphic Encryption, which supports:
+
+Addition of encrypted values: Enc(x)⊕Enc(y)=Enc(x+y)
+Multiplication of an encrypted value by a scalar: Enc(x)⊗k=Enc(k⋅x)
+
+
+
+Example: Secure Aggregation Using Paillier Encryption
+Let's assume three federated learning clients send encrypted updates to a server. 
+The server aggregates these updates without decryption.
+
+Steps:
+
+Clients encrypt their updates using the Paillier cryptosystem.
+The server aggregates the encrypted updates without decrypting them.
+The server sends the aggregated ciphertext to a trusted authority (e.g., the 
+model owner), who decrypts the final sum.
+
+
+
+
+Python Implementation Using phe
+Below, we demonstrate a simple homomorphic encrypted addition using the phe library:
+
+
+# Import Libraries
+from phe import paillier
+import numpy as np
+
+# Step 1: Key Generation
+public_key, private_key = paillier.generate_paillier_keypair()
+
+# Step 2: Clients encrypt their values
+client1_value = 5
+client2_value = 8
+
+encrypted_client1 = public_key.encrypt(client1_value)
+encrypted_client2 = public_key.encrypt(client2_value)
+
+# Step 3: Server aggregates encrypted values WITHOUT decrypting
+encrypted_sum = encrypted_client1 + encrypted_client2  # Homomorphic addition
+
+# Output encrypted sum
+print("Encrypted sum:", encrypted_sum.ciphertext)
+
+
+
+
+🔹 What happens here?
+
+Clients encrypt their local values (e.g., gradient updates) using the Paillier public key.
+Server aggregates encrypted updates without seeing plaintext.
+Final decryption (not shown in this case) would be performed by a trusted entity.
+
+
+
+🔹 Real-World Application in Federated Learning
+
+Clients train locally and encrypt their model updates.
+Server aggregates encrypted gradients instead of raw data.
+Only the final aggregated model parameters are decrypted (not individual updates).
+This ensures that no individual model updates are ever exposed, preserving privacy.
+
+Conclusion
+Homomorphic encryption, particularly Paillier's additive homomorphic encryption, 
+enables secure aggregation in federated learning by ensuring that sensitive updates r
+emain encrypted while still allowing the aggregation operation. This enhances 
+privacy, prevents adversarial attacks, and ensures data confidentiality in 
+decentralized learning environments.
+
+Would you like to extend this with a full federated learning simulation using 
+homomorphic encryption? 🚀
+
+
+
+
+Federated Learning with Homomorphic Encryption (HE)
+
+Steps in Our Simulation
+
+Setup
+Generate a Paillier key pair (public & private keys).
+Simulate three clients with private model updates (e.g., gradients).
+
+Local Training & Encryption
+Each client encrypts their update using the public key.
+
+Secure Aggregation
+A central server aggregates encrypted updates without decryption.
+
+Final Decryption
+The model owner decrypts the aggregated result.
+
+
+from phe import paillier
+import numpy as np
+
+# Step 1: Key Generation (Done by Model Owner)
+public_key, private_key = paillier.generate_paillier_keypair()
+
+# Step 2: Simulated Client Training Updates (Each client has local updates)
+num_clients = 3
+num_params = 5  # Simulating a simple model with 5 parameters
+
+# Clients' model updates (simulated gradients)
+client_updates = {
+    f"Client_{i+1}": np.random.randint(-10, 10, num_params)  
+                                             # Random gradients for simplicity
+    for i in range(num_clients)
+}
+
+# Step 3: Clients Encrypt Their Updates
+encrypted_updates = {
+    client: [public_key.encrypt(val) for val in updates]
+    for client, updates in client_updates.items()
+}
+
+# Step 4: Secure Aggregation at the Server
+# Sum encrypted values for each parameter across all clients
+aggregated_encrypted_updates = []
+for i in range(num_params):
+    encrypted_sum = sum(encrypted_updates[client][i] for client in encrypted_updates)
+    aggregated_encrypted_updates.append(encrypted_sum)
+
+# Step 5: Model Owner Decrypts Final Aggregated Result
+decrypted_aggregated_updates = [private_key.decrypt(enc_val) for enc_val in aggregated_encrypted_updates]
+
+# Display results
+print("\n=== Client Updates (Before Encryption) ===")
+for client, updates in client_updates.items():
+    print(f"{client}: {updates}")
+
+print("\n=== Encrypted Updates (Partial View) ===")
+for client, enc_updates in encrypted_updates.items():
+    print(f"{client}: {[str(enc_val)[:50] + '...' for enc_val in enc_updates]}")  # Shorten for readability
+
+print("\n=== Aggregated Updates (Decrypted) ===")
+print(decrypted_aggregated_updates)
+
+
+
+🔍 Explanation of the Code
+
+Key Generation
+
+A Paillier key pair is generated by the model owner.
+The public key is shared with clients for encryption.
+The private key is kept secret for final decryption.
+
+Client Model Updates
+
+Each client generates a random set of gradients (simulated updates).
+These updates represent local training results.
+
+Encryption
+
+Each client encrypts its updates using the Paillier public key.
+The server receives only encrypted updates.
+
+Secure Aggregation at Server
+
+The server sums encrypted updates without decryption.
+Thanks to homomorphic encryption, summing encrypted values produces an encrypted sum.
+
+Decryption by Model Owner
+
+The model owner decrypts the aggregated result using their private key.
+The final aggregated model updates are used for the global model update.
+
+🛡️ Privacy & Security Benefits
+✅ Clients' raw updates are never exposed (no plaintext transmission).
+✅ The server cannot decrypt individual updates, preventing potential privacy breaches.
+✅ Only the final aggregate is decrypted, ensuring secure federated learning.
+
+
+
+Train a real PyTorch/TensorFlow model with encrypted gradients?
+
+🔹 Plan: Secure Federated Learning with Encrypted Gradients
+
+1. Define a simple PyTorch neural network
+2. Simulate multiple clients training locally
+3. Encrypt their gradients using Paillier HE
+4. Aggregate encrypted gradients at the server
+5. Decrypt the aggregated update and update the global model
+
+🔍 Explanation of Each Step
+
+1️⃣ Key Generation (Step 1)
+Paillier key pair is generated.
+Public key is shared with clients, while private key is kept secret.
+
+2️⃣ Neural Network Definition (Step 2)
+We create a PyTorch model with:
+Input layer (10 features)
+Hidden layer (20 neurons)
+Output layer (2 classes, classification task)
+
+3️⃣ Local Training & Encrypted Gradients (Step 3)
+Each client trains locally for 1 epoch.
+Gradients are extracted and encrypted using Paillier HE.
+
+4️⃣ Secure Aggregation at Server (Step 4)
+The server sums encrypted gradients directly without decryption.
+The server doesn’t learn anything from individual client updates.
+
+5️⃣ Decryption & Global Model Update (Step 5)
+The model owner decrypts the aggregated gradients.
+Model is updated using secure aggregated gradients.
+
+
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import numpy as np
+from phe import paillier
+
+# ====== STEP 1: Key Generation (Model Owner) ======
+public_key, private_key = paillier.generate_paillier_keypair()
+
+# ====== STEP 2: Define a Simple PyTorch Model ======
+class SimpleNN(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super(SimpleNN, self).__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size)
+        self.relu = nn.ReLU()
+        self.fc2 = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x):
+        x = self.fc1(x)
+        x = self.relu(x)
+        x = self.fc2(x)
+        return x
+
+# Model Configuration
+input_size = 10
+hidden_size = 20
+output_size = 2
+global_model = SimpleNN(input_size, hidden_size, output_size)
+
+# ====== STEP 3: Simulated Clients & Local Training ======
+num_clients = 3
+batch_size = 32
+epochs = 1
+learning_rate = 0.01
+
+# Generate random datasets for clients
+client_data = [torch.randn(100, input_size) for _ in range(num_clients)]
+client_labels = [torch.randint(0, output_size, (100,)) for _ in range(num_clients)]
+
+def train_client(model, data, labels):
+    """Simulated function to train a local model and return encrypted gradients."""
+    local_model = SimpleNN(input_size, hidden_size, output_size)  # Clone global model
+    local_model.load_state_dict(model.state_dict())
+
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.SGD(local_model.parameters(), lr=learning_rate)
+    
+    for epoch in range(epochs):
+        for i in range(0, len(data), batch_size):
+            inputs = data[i:i+batch_size]
+            targets = labels[i:i+batch_size]
+            
+            optimizer.zero_grad()
+            outputs = local_model(inputs)
+            loss = criterion(outputs, targets)
+            loss.backward()
+            optimizer.step()
+
+    # Extract gradients and encrypt them
+    encrypted_grads = []
+    for param in local_model.parameters():
+        encrypted_grads.append([public_key.encrypt(float(grad)) for grad in param.grad.view(-1)])
+
+    return encrypted_grads
+
+# Each client trains locally and encrypts their gradients
+encrypted_gradients = [train_client(global_model, client_data[i], client_labels[i]) for i in range(num_clients)]
+
+# ====== STEP 4: Secure Aggregation at Server ======
+aggregated_encrypted_gradients = []
+num_params = sum(p.numel() for p in global_model.parameters())
+
+for param_idx in range(num_params):
+    encrypted_sum = sum(encrypted_gradients[c][param_idx] for c in range(num_clients))
+    aggregated_encrypted_gradients.append(encrypted_sum)
+
+# ====== STEP 5: Decryption & Global Model Update ======
+decrypted_gradients = np.array([private_key.decrypt(val) for val in aggregated_encrypted_gradients])
+
+# Reshape and update model parameters
+with torch.no_grad():
+    idx = 0
+    for param in global_model.parameters():
+        numel = param.numel()
+        param.grad = torch.tensor(decrypted_gradients[idx:idx+numel]).view(param.shape)
+        idx += numel
+
+    optimizer = optim.SGD(global_model.parameters(), lr=learning_rate)
+    optimizer.step()
+
+# ====== RESULTS ======
+print("\n=== Global Model Updated Successfully with Secure Aggregation ===")
+for name, param in global_model.named_parameters():
+    print(f"{name}: {param.data[:5]}")  # Show a few values for brevity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Feb 26 12:55:12 2025
+
+@author: srivi
+"""
+
+Sports And Leisure	- 10000 for 4 people
+Utilities (Monthly)	- 15000	
+rent per month - 15000
+Groceries per month - 10000
+Restaurants/ movies - 5000
+Education for 2 kids - 40000
+Transportation- 10000
+

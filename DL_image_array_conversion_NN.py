@@ -23,7 +23,7 @@ for file in listdir(folder):
 	if file.startswith('dog'):
 		output = 1.0
 	# load image
-	photo = load_img(folder + file, target_size=(56,56))
+	photo = load_img(folder + file, target_size=(64,64))
 	greyphoto = skimage.color.rgb2gray(photo)
     # convert to numpy array
 	# photo = img_to_array(greyphoto)
@@ -35,8 +35,8 @@ photos = asarray(photos)
 labels = asarray(labels)
 print(photos.shape, labels.shape)
 # save the reshaped photos
-save('dogs_vs_cats_photos2_56x56.npy', photos)
-save('dogs_vs_cats_labels2_56x56.npy', labels)
+save('dogs_vs_cats_photos2_64x64.npy', photos)
+save('dogs_vs_cats_labels2_64x64.npy', labels)
 
 
 import matplotlib.pyplot as plt

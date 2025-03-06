@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  4 09:08:31 2025
+
+@author: srivi
+"""
+
+Creating a concept for effective communication in an online team. 
+
+We started to develop a concept for online teams on the second day of the workshop. 
+Use the foundations we laid there and complete the following task. 
+
+In an increasingly digital working world, many companies rely on remote teams. 
+Effective communication within such teams plays a crucial role in the success of 
+projects and the satisfaction of team members.  
+
+Your task is to develop a concept that ensures that communication in a remote 
+online team functions optimally. 
+
+Steps for completing the task: 
+    
+Step 1: Identify media skills Think about what media skills are required in your 
+team to work efficiently and effectively. What skills are required in dealing 
+with different communication media?  
+
+Step 2: Establish communication rules 
+Establish clear rules and guidelines for communication within the team. How 
+should information be shared? Which media should be used for which purpose 
+(e.g. email, video calls, chat, project management tools, time management)?  
+
+Step 2: Establish communication rules Create clear rules and guidelines for 
+communication within the team. How should information be shared? Which media 
+should be used for which purpose (e.g. email, video calls, chat, project 
+                                  management tools, time management)?  
+
+Step 3: Conflict prevention Think about how communication can be designed to 
+avoid conflicts as far as possible. What measures could be taken to reduce 
+misunderstandings and promote a positive team atmosphere?  
+
+Step 4: Create a code of conduct Formulate the communication and media code of 
+conduct, taking into account the identified media skills and communication rules. 
+The code should be easy to understand and binding for all team members. 
+Your solution should not only address the technical aspects of communication, 
+but also the social and organizational factors that support successful remote 
+teamwork. Emphasize the importance of an open communication culture and continuous 
+improvement. 
+
+Note: Please complete this task in writing and upload it. 
+
+
+
+
