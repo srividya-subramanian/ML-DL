@@ -190,6 +190,11 @@ function can be used for multiclass classification problems. represent the
 probability for the data point belonging to each class. Note that the sum of all 
 the values is 1.'''
 
+- Alternative: Why Not Use Sigmoid Instead?
+For binary classification (cat vs. dog), another option is the sigmoid function 
+and applying binary cross-entropy loss. However, softmax is still preferred in 
+multi-class cases, and even for binary cases where a one-hot encoded output is used.
+
 
 
 

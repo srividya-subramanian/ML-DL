@@ -23,8 +23,8 @@ version = 84.2.0
 previous_crash = 
 window/statusbar = True
 prev_high_dpi_custom_scale_factors = 1
-last_inapp_appeal = 2025-02-02
-spyder_runs_for_appeal = 15
+last_inapp_appeal = 2025-04-10
+spyder_runs_for_appeal = 19
 interface_language = en
 custom_cursor_blinking = 1060
 
@@ -130,7 +130,7 @@ pdb_use_exclamation_mark = True
 pdb_stop_first_line = True
 editor_debugger_panel = True
 breakpoints_table_visible = False
-breakpoints = {'c:\\users\\srivi\\.spyder-py3\\transferaufgabe55a01.py': [], 'c:\\users\\srivi\\.spyder-py3\\iris_bookversion.py': [(47, None), (45, None)]}
+breakpoints = {'c:\\users\\srivi\\.spyder-py3\\transferaufgabe55a01.py': [], 'c:\\users\\srivi\\.spyder-py3\\iris_bookversion.py': [(47, None), (45, None)], 'c:\\users\\srivi\\documents\\velptec\\untitled21.py': []}
 window_was_undocked_before_hiding = False
 first_time = False
 enable = True
@@ -344,7 +344,7 @@ console/use_cwd = True
 console/use_fixed_directory = False
 startup/use_project_or_home_directory = True
 startup/use_fixed_directory = False
-history = ['c:\\users\\srivi\\.spyder-py3', 'C:\\Users\\srivi', 'c:\\users\\srivi', 'C:\\Users\\srivi\\.spyder-py3', 'C:\\Users\\srivi\\Downloads']
+history = ['c:\\users\\srivi\\.spyder-py3', 'c:\\users\\srivi\\documents\\velptec', 'C:\\Users\\srivi', 'c:\\users\\srivi', 'C:\\Users\\srivi\\.spyder-py3', 'C:\\Users\\srivi\\Downloads']
 
 [tours]
 enable = True

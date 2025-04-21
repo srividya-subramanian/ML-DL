@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 31 20:05:45 2025
+
+@author: srivi
+"""
+
+There are several other techniques that help handle class imbalance in datasets. 
+These techniques can be broadly categorized into oversampling, undersampling, and 
+hybrid approaches.
+
+1️⃣ Oversampling Techniques (Like SMOTE)
+Oversampling increases the number of minority class samples to balance the dataset.
+
+🔹 Variants of SMOTE
+🔹 Borderline-SMOTE: Focuses on generating synthetic data near the decision boundary.
+🔹 ADASYN (Adaptive Synthetic Sampling): Creates more synthetic samples for 
+harder-to-classify minority points.
+🔹 SMOTE-NC (SMOTE for Nominal and Continuous features): Handles datasets with 
+both categorical and numerical variables.
+🔹 K-Means SMOTE: Uses K-Means clustering to ensure new synthetic samples are more representative.
+
+GAN-Based Data Augmentation (Generative Adversarial Networks)
+
+Uses deep learning to generate realistic synthetic samples for the minority class.
+Suitable for complex fraud detection or medical diagnosis applications.
+
+
+2️⃣ Undersampling Techniques
+Undersampling removes excess majority class samples to balance the dataset.
+
+🔹 Random Undersampling (RUS)
+Randomly removes majority class samples.
+Risk: May discard valuable information.
+🔹 Tomek Links
+Identifies majority class samples that are very close to minority class samples and removes them.
+Improves class separation.
+🔹 Edited Nearest Neighbors (ENN)
+Removes majority samples that are misclassified by their k-nearest neighbors.
+Reduces overlapping between classes.
+🔹 NearMiss
+Selects only the most difficult majority class samples for training.
+Ensures that the model learns from hard cases.
+
+3️⃣ Hybrid Techniques (Combining Oversampling & Undersampling)
+These methods combine oversampling and undersampling to get the best of both worlds.
+
+🔹 SMOTE + Tomek Links
+SMOTE creates synthetic minority samples.
+Tomek Links removes redundant majority samples.
+
+🔹 SMOTE + Edited Nearest Neighbors (SMOTE + ENN)
+ENN removes noisy samples after SMOTE oversampling.
+Results in a cleaner, better-separated dataset.
+
+🔹 BalancedBaggingClassifier
+Uses bootstrapping and undersampling within an ensemble model.
+Helps in fraud detection and real-world class imbalance scenarios.
+
+Choosing the Right Technique
+Technique	  Pros	                                        Cons	                    Best Use Cases
+SMOTE	      Prevents overfitting, generates new data	    Can create noise	        Fraud detection, medical diagnosis
+ADASYN	      Focuses on hard-to-learn samples	            Can create more overlap	    Fraud, rare disease prediction
+Tomek Links	  Reduces noise and improves decision boundary	May lose useful data	    Credit card fraud, spam detection
+NearMiss	  Keeps only hard-to-classify samples	        May remove useful data	    Text classification, sentiment analysis
+SMOTE + ENN	  Balances and cleans dataset	                Computationally expensive	Image classification, predictive maintenance
+
+Conclusion
+🔹 For large datasets → Use SMOTE or ADASYN.
+🔹 For noise-prone datasets → Use Tomek Links or ENN.
+🔹 For small datasets → Consider GANs or Hybrid approaches.
+🔹 For deep learning applications → Try GAN-based augmentatio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

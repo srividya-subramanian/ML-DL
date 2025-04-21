@@ -1,0 +1,158 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 31 20:22:34 2025
+
+@author: srivi
+"""
+
+GAN-Based Data Augmentation for Fraud Detection & Anomaly Detection
+Generative Adversarial Networks (GANs) are powerful deep learning models used to 
+create synthetic data that closely resembles real-world distributions. This makes 
+them highly effective for fraud analytics, anomaly detection, and imbalanced datasets.
+
+1️⃣ How GANs Work in Data Augmentation
+A GAN consists of two competing neural networks:
+
+Generator (G): Creates synthetic samples that mimic real data.
+Discriminator (D): Tries to distinguish between real and fake samples.
+These two networks compete in a process similar to a cat-and-mouse game, continuously 
+improving each other until the generated samples are indistinguishable from real ones.
+
+2️⃣ Why Use GANs for Fraud & Anomaly Detection?
+Traditional oversampling methods like SMOTE create synthetic data by interpolating 
+between existing samples. However, GANs generate new samples by learning the entire 
+data distribution, making them more effective in:
+
+Fraud detection (e.g., generating fraudulent transaction patterns)
+Cybersecurity (e.g., synthetic malware attacks)
+Healthcare (e.g., rare disease patient records)
+Finance (e.g., credit card fraud data)
+
+3️⃣ Types of GANs for Fraud & Anomaly Detection
+
+🔹 Standard GAN (Vanilla GAN)
+Basic architecture with a generator and discriminator.
+Can create synthetic minority class data.
+🔹 Conditional GAN (cGAN)
+Allows generating specific types of fraud patterns.
+Useful for labeled datasets where fraud categories exist.
+🔹 Variational Autoencoder GAN (VAE-GAN)
+Works well for detecting complex anomalies.
+Helps in fraud analytics where anomalies are subtle.
+🔹 WGAN (Wasserstein GAN)
+Solves mode collapse (where the GAN generates limited variations).
+Ensures better quality in synthetic fraud transactions.
+🔹 TimeGAN (for Sequential Data)
+Generates realistic time-series fraud patterns (e.g., banking transactions, 
+                                                stock trading anomalies).
+
+
+4️⃣ Steps to Use GANs for Fraud Data Augmentation
+
+🔷 Step 1: Data Preprocessing
+Clean the dataset, normalize values.
+Handle missing data and categorical variables.
+🔷 Step 2: Train the GAN Model
+Feed real fraud and normal transactions into the discriminator.
+Train the generator to create synthetic fraud samples.
+🔷 Step 3: Evaluate Synthetic Data Quality
+T-SNE visualization: Check how well synthetic data blends with real data.
+ML Model Performance: Use fraud detection models (like Random Forest, XGBoost) 
+to check accuracy with synthetic data.
+🔷 Step 4: Use Generated Data for Model Training
+Augment fraud detection models with the synthetic dataset.
+
+Retrain fraud detection algorithms for better generalization.
+
+
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.layers import Dense, LeakyReLU
+from tensorflow.keras.models import Sequential
+
+# Define Generator
+def build_generator():
+    model = Sequential([
+        Dense(128, activation=LeakyReLU(0.2), input_dim=10),
+        Dense(256, activation=LeakyReLU(0.2)),
+        Dense(10, activation='tanh')  # 10 features in fraud dataset
+    ])
+    return model
+
+# Define Discriminator
+def build_discriminator():
+    model = Sequential([
+        Dense(256, activation=LeakyReLU(0.2), input_dim=10),
+        Dense(128, activation=LeakyReLU(0.2)),
+        Dense(1, activation='sigmoid')  # Binary classification: Real (1) or Fake (0)
+    ])
+    return model
+
+# Compile Models
+generator = build_generator()
+discriminator = build_discriminator()
+discriminator.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+# Combined Model (GAN)
+gan = Sequential([generator, discriminator])
+discriminator.trainable = False
+gan.compile(loss='binary_crossentropy', optimizer='adam')
+
+# Training Loop
+for epoch in range(10000):
+    noise = np.random.normal(0, 1, (64, 10))  # Random noise as input
+    generated_data = generator.predict(noise)
+    
+    # Real and Fake Data
+    real_data = np.random.rand(64, 10)  # Replace with actual fraud data
+    X_combined = np.vstack((real_data, generated_data))
+    y_combined = np.hstack((np.ones(64), np.zeros(64)))
+
+    # Train Discriminator
+    discriminator.trainable = True
+    d_loss = discriminator.train_on_batch(X_combined, y_combined)
+
+    # Train Generator (via GAN)
+    noise = np.random.normal(0, 1, (64, 10))
+    y_mislabeled = np.ones(64)  # Trick discriminator into thinking generated data is real
+    discriminator.trainable = False
+    g_loss = gan.train_on_batch(noise, y_mislabeled)
+
+    if epoch % 1000 == 0:
+        print(f"Epoch {epoch}: D Loss: {d_loss[0]}, G Loss: {g_loss}")
+
+
+6️⃣ Benefits of GAN-Based Augmentation in Fraud Analytics
+✅ Handles Class Imbalance Better – Unlike SMOTE, GANs learn real fraud patterns 
+instead of just interpolating between existing ones.
+✅ Enhances Model Performance – Fraud detection models trained on GAN-generated 
+data generalize better.
+✅ Creates Realistic Anomalies – Useful in cybersecurity, banking fraud, and 
+healthcare fraud detection.
+✅ Improves Fraud Detection Systems – Generates synthetic fraud patterns that 
+adapt to evolving attack methods.
+
+7️⃣ Real-World Use Cases
+🔹 Credit Card Fraud – Generating synthetic fraud transactions for training models.
+🔹 Banking & FinTech – Simulating new fraud trends to update detection models.
+🔹 Cybersecurity – Creating synthetic attack vectors for threat detection.
+🔹 Healthcare Fraud – Generating insurance fraud patterns for claim validation.
+
+Conclusion
+GAN-based augmentation is a powerful alternative to SMOTE for handling fraud detection 
+and anomaly detection. It creates realistic fraud patterns, making fraud detection models smarter and more robust.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

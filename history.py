@@ -1,602 +1,3 @@
-error.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-w.shape
-b.shape
-y_pred
-y_pred.shape
-y_train.shape
-err = (y_pred - y)
-err = (y_pred - y_train)
-err.shape
-X_train.shape
-np.dot(X_train,err)
-np.dot(X_train,err.T)
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-err = (y_pred - y).transpose()
-err
-err.shape
-err.T.shape
-np.dot(X_train,err)
-X_train.shape, err.shape
-error.shape, images.shape
-np.dot(images.T, error)
-np.dot(X_train,err.T)
-np.dot(X_train.T,err)
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-X_train.shape, err.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-neuron_idx
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-visualize_weights(trained_weights, 2)  # Neuron für die Ziffer "2"
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-visualize_weights(w, 1)  # Neuron für die Ziffer "2"
-visualize_weights(w, 0)  # Neuron für die Ziffer "2"
-visualize_weights(w, 3)  # Neuron für die Ziffer "2"
-visualize_weights(w, 4)  # Neuron für die Ziffer "2"
-visualize_weights(w, 5)  # Neuron für die Ziffer "2"
-%runfile C:/Users/srivi/.spyder-py3/untitled5.py --wdir
-visualize_weights(w, 0)  # Neuron für die Ziffer "2"
-visualize_weights(w, 1)  # Neuron für die Ziffer "2"
-visualize_weights(trained_weights, 2)  # Neuron für die Ziffer "2"
-visualize_weights(w, 3)  # Neuron für die Ziffer "2"
-visualize_weights(w, 4)  # Neuron für die Ziffer "2"
-visualize_weights(w, 5)  # Neuron für die Ziffer "2"
-visualize_weights(w, 9)  # Neuron für die Ziffer "2"
-visualize_weights(w, 8)  # Neuron für die Ziffer "2"
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-w
-%runfile C:/Users/srivi/.spyder-py3/untitled2.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-from chatterbot import ChatBot
-pip install chatterbot
-pip install SpeechRecognition
-install gTTS
-pip install gTTS
-pip install transformers
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-import pytorch
-pip install pytorch
-pip install Pyrebase4
-pip install pytorch
-pip install pytorch --no-binary :all:
-    
-pip install pytorch --no-binary :all
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-pip install tflearn
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-import nltk
-from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
-import tflearn
-pip uninstall tflearn
-pip install git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
-pip install git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-intents
-intents['tag']
-intent['tag']
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-training
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-bag
-pattern_words
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-training.shape
-training.to_array()
-training
-np.array(training)
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-st
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-st
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-training
-training[:,0]
-training[0,:]
-bag
-output_row
-pattern_words
-words
-classes
-output_row
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-training
-training.shape
-len(training)
-len(training[0])
-len(training[1])
-len(training[2])
-len(training)
-random.shuffle(training)
-np.array(training)
-training = np.array(training, dtype="object")
-training.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-pip install git+https://github.com/tflearn/tflearn.git
-len(train_y[0]
-)
-len(train_x[0]
-)
-training.shape
-list(training[:,0])
-len(list(training[:,0]))
-len(list(training[:,1))
-len(list(training[:,1]))
-input_shape = [train_x.shape[1]]
-input_shape =[train_x.shape[1]]
-train_x.shape[1]
-len(train_x)
-input_shape = [training.shape[1]]
-input_shape
-len(train_x[0])
-len(train_y[0])
-(training[:,0])
-(training[:,0]).shape
-train_x = list(training[:,0])
-len(train_x[0])
-len(train_y[0])
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-len(train_x)
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-train_x.shape
-train_x
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-train_x.shape
-train_x[0]
-train_x[1]
-train_x[26]
-len(list(train_x[26]))
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-train_x
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-train_y
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-tx.shape
-len(tx)
-len(ty)
-len(train_x)
-len(train_y)
-tx[0]
-ty[0]
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-tf.enable_eager_execution()
-print(tf.__version__)
-tf.enable_eager_execution()
-tf.compat.v1.enable_eager_execution()
-%runfile C:/Users/srivi/.spyder-py3/untitled11.py --wdir
-prediction = nn.predict_scores(X_val[0])[0]    
-print ("Scores")
-print (prediction)    
-np.argmax(prediction)
-
-predict_class = nn.predict(X_val[0])[0]
-predict_class    
-
-y_val[0]
-X_val
-i=1    
-prediction = nn.predict_scores(X_val[i])[0]    
-print ("Scores")
-print (prediction)    
-np.argmax(prediction)
-
-predict_class = nn.predict(X_val[i])[0]
-predict_class    
-
-y_val[0]
-y_val[i]
-i=5    
-prediction = nn.predict_scores(X_val[i])[0]    
-print ("Scores")
-print (prediction)    
-np.argmax(prediction)
-
-predict_class = nn.predict(X_val[i])[0]
-predict_class    
-
-y_val[i]
-%runfile C:/Users/srivi/.spyder-py3/untitled8.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/DL_Activation_Functions_NN.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-print(rf.predict(p))
-p
-p = bow("is your shop open today?", words)
-p
-print(p)
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-print (p)
-words
-len(words)
-enumerate(words)
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-print(rf.predict(p))
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-p
-len(p)
-train_x
-train_x[0]
-train_x[0].shape
-len(train_x[0])
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-p
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-print(rf.predict(list(p)))
-sentence = "is your shop open today?"
-p = bow(sentence, words)
-test = np.array(p, dtype="object")
-test = list(test)
-#p = p.reshape(-1, 1))
-print (p)
-#print (classes)
-
-print(rf.predict(test))
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-print(rf.predict(test))
-%runfile C:/Users/srivi/.spyder-py3/untitled10.py --wdir
-import pickle
-pickle.dump( {'words':words, 'classes':classes, 'train_x':train_x, 'train_y':train_y}, open( "training_data", "wb" ) )
-%runfile C:/Users/srivi/.spyder-py3/chatbot_NN.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled12.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
-one_hot_labels
-one_hot_labels.shape
-one_hot_labels[10,*]
-one_hot_labels(10,*)
-one_hot_labels(10,:)
-one_hot_labels[10,:]
-one_hot_labels[0:10,:]
-labels
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
-images, labels = (x_train[0:1000].reshape(1000,28*28)/255, y_train[0:1000])
-labels
-one_hot_labels = np.zeros((len(labels),10))
-one_hot_labels[0:10,:]
-enumerate(labels)
-len(images)
-len(images)/batch_size
-i=1
-(i * batch_size),((i+1)*batch_size)
-images.shape
-layer_0.shape
-dropout_mask
-layer_0 = images[batch_start:batch_end]
-layer_1 = perceptron(layer_0,weights_0_1)
-layer_1 = relu(layer_1)
-dropout_mask = np.random.randint(2,size=layer_1.shape)
-def perceptron(x, w): 
-    return np.dot(x, w)
-    
-def perceptron(x, w): 
-    
-return np.dot(x, w)
-    
-def perceptron(x, w): 
-    return np.dot(x, w)
-    
-layer_0 = images[batch_start:batch_end]
-layer_1 = perceptron(layer_0,weights_0_1)
-layer_1 = relu(layer_1)
-dropout_mask = np.random.randint(2,size=layer_1.shape)
-dropout_mask
-layer_1
-layer_1 *= dropout_mask * 2
-layer_1
-layer_2 = perceptron(layer_1,weights_1_2)
-correct_cnt
-%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
-labels_0, layer_2
-labels_0 - layer_2
-(labels_0 - layer_2).round(3)
-(labels_0 - layer_2).round(1)
-(labels_0 - layer_2).round(2)
-(labels_0 - layer_2).round(3)
-(labels_0 - layer_2).round(2)
-%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-data
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-i=0,l=1
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-i=0,l=1
-i=0l=1
-i=0
-l=1
-data[i][l]
-data
-data[i], data[l]
-data[i,l]
-data(i,l)
-data[i][l]
-i
-l
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-rows
-cols
-data
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-data
-data.shape
-data[0,1]
-data[0,0]
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-i
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-ii
-jj
-jj.int
-int(ii)
-data_new = [ii,jj]
-data_new
-np.array(data_new)
-int(data_new)
-data_new.int
-data_new.astype(int)
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-data_new
-data_new.shape
-data_new.T
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-data_new.T
-data_new
-data_new.shape
-labels
-labels.astype(int)
-labels.astype(int).T
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-ypred
-y_pred
-w1
-w2
-x
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-terr
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-terr
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled14.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled15.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-x.shape, deltay.shape
-X
-x.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-x.shape
-X
-x
-x * deltay
-deltay
-y
-y_pred
-x * deltay * alpha
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-w
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-terr
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-terr
-%runfile C:/Users/srivi/.spyder-py3/untitled16.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled13.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled9.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled19.py --wdir
-test_correct_cnt
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-data
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-speed = pd.DataFrame(rand.uniform(0,200,1000))
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-df
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-X_train.shape, y_train.shape, X_test.shape, y_test.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-X_train.shape, y_train.shape, X_test.shape, y_test.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-y_pred.shape, y_trian.shape
-y_pred.shape, y_train.shape
-y_pred.reshape(1)
-y_pred.reshape(-1)
-(y_pred.reshape(-1)).shape
-y_pred.shape, y_train.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-err
-err.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-err
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-w0.shape
-wo.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-err.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-err.shape
-wo.shape
-derivative_sigmoid_fn(y_pred)
-derivative_sigmoid_fn(y_pred).shape
-%runfile C:/Users/srivi/.spyder-py3/untitled23.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-data
-data.T
-np.array(data)
-np.array(data).T
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-data
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-y
-y.shape
-data.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-X.shape, y.shape
-X
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-y_pred
-y_pred.shape
-y.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-err.shape
-err
-ypred.shape
-y_pred.shape, y.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-err
-err.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-deltao.shape, wo.T.shape, wo.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-x.shape
-X.shape
-wi.shape
-np.dot(X,wi).shpae
-np.dot(X,wi).shape
-np.dot(X,wi)+bi.shape
-bi.shape
-(np.dot(X,wi)+bi).shape
-hx = perceptron_npdot(x,wi)+bi
-h  = sigmoid_activationfn(hx)
-hy = perceptron_npdot(h,wo)+bo
-y_pred = (sigmoid_activationfn(hy)).reshape(-1)
-h.shape
-hx.shaüe
-hx.shape
-x=X
-hx = perceptron_npdot(x,wi)+bi
-h  = sigmoid_activationfn(hx)
-hy = perceptron_npdot(h,wo)+bo
-y_pred = (sigmoid_activationfn(hy)).reshape(-1)
-hx.shape, h.shape, hy.shape, y_pred.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled25.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-d_predicted_output.shape
-weights_hidden_output.shape
-d_predicted_output.dot(weights_hidden_output.T).shape
-err.shape
-deltao.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-err.shape
-y.shape
-np.array([[0], [1], [0], [1], [0], [1]]).shape
-np.array(Art).T.shape
-np.array([[5.1, 3.5, 1.4, 0.2], 
-              [7.0, 3.2, 4.7, 1.4], 
-              [4.6, 3.1, 1.5, 0.2], 
-              [6.5, 2.8, 4.6, 1.5], 
-              [5.0, 3.6, 1.4, 0.2], 
-              [5.7, 2.8, 4.5, 1.3]]).shape
-X.shape
-np.array(Art).T.reshape(1)
-np.array(Art).T.reshape(1,1)
-np.array(Art).T.reshape(6,1)
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled25.py --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled24.py --wdir
-[y.round(2), y_pred.round(1)]
-%runfile 'C:/Users/srivi/.spyder-py3/DL_Übung76ü01_NN_FPBP_myworkingversion.py' --wdir
-y_pred
-%runfile 'C:/Users/srivi/.spyder-py3/DL_Übung76ü01_NN_FPBP_myworkingversion.py' --wdir
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-y_train.shape
-y_pred.shape
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-y_pred.shape
-y_train.shape
-y_train
-y_pred
-%runfile C:/Users/srivi/.spyder-py3/untitled21.py --wdir
-import tensorflow.data.Dataset
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-pip install tensorflow_datasets
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-import keras
-import tensorflow as tf
-from keras.preprocessing.image import ImageDataGenerator
-import tf.keras.preprocessing.image.ImageDataGenerator
-import tensorflow as tf
-import tf.keras.preprocessing.image.ImageDataGenerator
-import tensorflow.keras.preprocessing.image.ImageDataGenerator
-from keras.preprocessing.image import ImageDataGenerator
-from keras.preprocessing import image
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-import glob
-import glob
-data = glob.glob(dataset_path)
-dataset_path = "Users/srivi/Documents/ML_data/cat_dog/training_set/cats/*.jpg"
-import glob
-data = glob.glob(dataset_path)
-data
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-images
-images.value
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-images
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-plot_image_grid(cat_files[:16])
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-images = [tf_keras.preprocessing.image.load_img(img) for img in train_cat_files]
-plot_image_grid(train_cat_files[0:16])
-images
-images.shape
-images[0]
-images[0].shape
-len(images[0])
-plt.imshow(images[0])
-plt.show()
-plt.imshow(images[1])
-plt.show()
-plt.imshow(images[12)
-plt.imshow(images[12])
-plt.show()
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-train_cat_files
-train_cat_data = [tf_keras.preprocessing.image.load_img(img) for img in train_cat_files]
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-y_train
-train_cat_data[0]
-train_cat_data[0].flatten()
-print("train size: {} cats and {} dogs".format(len(train_cat_data), len(train_dog_data)))
-print("test size :  {} cats and  {} dogs".format(len(test_cat_data), len(test_dog_data)))'
-print("train size: {} cats and {} dogs".format(len(train_cat_data), len(train_dog_data)))
-print("test size :  {} cats and  {} dogs".format(len(test_cat_data), len(test_dog_data)))
-train_cat_data = train_cat_data[0:3999]
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-train_cat_dataset_path
-cd train_cat_dataset_path
-training_set = train_datagen.flow_from_directory(train_cat_dataset_path,
-                                                 target_size = (64, 64),
-                                                 batch_size = 32,
-                                                 class_mode = 'binary')
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-train_generator
-train_generator.samples
-train_generator.data
-train_generator[0]
-train_generator[0].shape
-len(train_generator[0]=
-len(train_generator[0])
-train_generator[0][0]
-train_generator[0][0].shape
-train_generator[0][1].shape
-train_generator = train_datagen.flow_from_directory(train_dataset_path, target_size = IMG_SIZE,
-                                                   # classes=['Cat' , 'Dog'],
-                                                    class_mode='binary',
-                                                    batch_size=BATCH,
-                                                    #save_to_dir=aug_data_path,
-                                                    #save_prefix='aug_',
-                                                    #save_format="jpg",
-                                                    seed = 1
-                                                    )
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
-train_generator[0][0].shape
-%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
 train_generator[0][0].shape
 %runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
 from tensorflow.python.keras.models import Sequential
@@ -1473,3 +874,128 @@ pd.set_option('display.max_columns')
 %runfile C:/Users/srivi/.spyder-py3/untitled72.py --wdir
 %runfile C:/Users/srivi/.spyder-py3/untitled77.py --wdir
 %runfile C:/Users/srivi/.spyder-py3/untitled78.py --wdir
+import spacy
+%runfile C:/Users/srivi/.spyder-py3/untitled87.py --wdir
+python -m spacy download en_core_web_lg
+python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_lg
+import en_core_web_sm
+!python -m spacy download en_core_web_sm
+!python -m spacy download en_core_web_lg
+%runfile C:/Users/srivi/.spyder-py3/untitled87.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled88.py --wdir
+import tf-keras
+pip install tf-keras
+%runfile C:/Users/srivi/.spyder-py3/untitled88.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled89.py --wdir
+
+## ---(Sun Mar 16 06:52:46 2025)---
+%runfile C:/Users/srivi/Documents/VELPTEC/untitled1.py --wdir
+components
+components.shape
+mixture_spectrum
+mixture_spectrum.shape
+mixture_spectrum / components
+(mixture_spectrum/components).shape
+max((mixture_spectrum/components).shape)
+(mixture_spectrum/components).max
+(mixture_spectrum[0,*]/components).max
+mixture_spectrum[0,:]
+mixture_spectrum.shape
+components.shape
+components[0,:]
+components[0,:].shape
+max((mixture_spectrum/components[0,:]).shape)
+max(mixture_spectrum/components[0,:])
+mixture_spectrum/components[0,:].max()
+(mixture_spectrum/components[0,:]).max()
+((mixture_spectrum/components[0,:])>0).max()
+components[0,:].shape
+x=(mixture_spectrum/components[0,:])
+x
+x>0
+x.isinf()
+x
+print(f"Estimated Concentrations (g/L):")
+print(f"Component A: {concentrations[0]:.2f} g/L")
+print(f"Component B: {concentrations[1]:.2f} g/L")
+print(f"Component C: {concentrations[2]:.2f} g/L")
+concentrations[0]
+print("A: {concentrations[0]} g/L")
+print(f"A: {concentrations[0]} g/L")
+print(f"A: {concentrations[0]} g/L")
+print(f"B: {concentrations[1]} g/L")
+print(f"C: {concentrations[2]} g/L")
+%runfile c:/users/srivi/documents/velptec/untitled21.py --wdir
+%runfile c:/users/srivi/documents/velptec/untitled22.py --wdir
+# Evaluate fraud risk score
+y_prob = rf_model.predict_proba(X_test)[:, 1]
+
+# Convert to a 0-100 risk score
+risk_scores = (y_prob * 100).astype(int)
+
+# Add risk scores to test data
+X_test['Fraud Risk Score'] = risk_scores
+X_test['Actual Class'] = y_test.values
+
+# Display top high-risk transactions
+X_test.sort_values(by='Fraud Risk Score', ascending=False).head(10)
+
+
+# Visualizing fraud risk distribution
+plt.figure(figsize=(8,5))
+sns.histplot(risk_scores, bins=50, kde=True, color='red')
+plt.xlabel("Fraud Risk Score")
+plt.ylabel("Frequency")
+plt.title("Distribution of Fraud Risk Scores")
+plt.show()
+%runfile C:/Users/srivi/Documents/VELPTEC/untitled23.py --wdir
+pip install yfinance, statsmodels, prophet
+pip install yfinance
+pip install statsmodels prophet
+%runfile C:/Users/srivi/.spyder-py3/untitled27.py --wdir
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df.head(5)
+df = yf.download("^NSEI", start="2015-01-01", end="2025-03-31")
+df.head(5)
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+df.head(5)
+df.index
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+pip install xgboost
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+pip install optuna
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir
+best_params = study.best_params
+model_xgb = xgb.XGBRegressor(**best_params)
+model_xgb.fit(X_train, y_train)
+y_pred_xgb = model_xgb.predict(X_test)
+metrics_xgb = evaluate(y_test, y_pred_xgb)
+print("XGBoost Metrics:", metrics_xgb)
+y_pred_xgb
+y_pred_xgb.shape
+y_test.shape
+y_test.reshape()
+y_test.reshape(-1)
+y_test.reshape(1)
+y_test.shape
+y_test.reshape(-1,1)
+y_test
+y_pred_xgb
+y_test
+y_test.^NSEI
+y_test.NSEI
+y_test("NSEI")
+y_test["NSEI"]
+y_test['NSEI']
+y_train
+X_train
+y_test.columns
+y_test['^NSEI']
+yyy = y_test['^NSEI']
+yyy
+yyy = y_test['Date']
+yyy.index
+yyy = y_test['^NSEI'].to_numpy()
+yyy
+%runfile C:/Users/srivi/.spyder-py3/untitled28.py --wdir

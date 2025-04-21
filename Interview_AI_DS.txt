@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr  9 09:47:49 2025
+
+@author: srivi
+"""
+
+Difference between Supervised, Unsupervised and Reinforcement Learning
+
+Aspect              Supervised                  Unsupervised                   Reinforcement Learning
+
+Data type           Labeled                     Unlabeled                      No labels required (interaction based) 
+Objective           learn by mapping input      learn the underlying           learn from trial/error method by
+                    feautures to op labels      structure / dim. reduction     interacting with the environment and
+                                                                               by receiving rewards/penalities
+                    - to predict/classify       - to discover hidden           - to identify the best sequence of actions
+                                                patterns/structures/grouping   that maximises the future return(rewards)
+Examples            Classification, Regression  Clustering, Dim. Reduction     Robotics, Recommendation systems
+Feedback            Direct (as model is         No feedback                    Reward based on action items
+                    trained from known labels)
+Usecase             Prediction (eg: stock)      Segmentation                   Self-driving cars
+                    Email spam detection        Anamoly detection              Dynamic pricing
+Algorithm           Linear Regression           K-means, DBScan                Q-learning, Deep Q-networks                   
+                    DT, RF, NN                  Isolation Forest
+
+
+Difference between underfitting / overfitting
+
+Aspect	            Underfitting	                            Overfitting
+
+Definition          Model is too simple to learn the            Model is too complex and learns 
+                    underlying pattern                          noise with patterns
+Cause               insufficient training                       not enough regularization
+Training Error      High                                        Low
+Test Error          Low                                         High
+Generalization      Poor (fails in both training aswell         Poor (performs well on training, but
+                    on unknown testing data                     fails on unknown testing data)                     
+Solution            Increase model complexity                   Simplify model
+                    Ex. add features, use deeper models         Ex. use regularization, cross-validation
+
+
+How do you handle missing or corrupted data?
+
+entirely depending on the dataset used
+* Medien / mean filling 
+* forward fill for time series
+* dropping columns/rows
+
+
+
+
+
+
+
+
+
+
+

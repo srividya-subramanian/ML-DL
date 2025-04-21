@@ -1,0 +1,83 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr  9 09:47:49 2025
+
+@author: srivi
+"""
+
+Difference between Supervised, Unsupervised and Reinforcement Learning
+
+Aspect              Supervised                  Unsupervised                   Reinforcement Learning
+
+Data type           Labeled                     Unlabeled                      No labels required (interaction based) 
+Objective           learn by mapping input      learn the underlying           learn from trial/error method by
+                    feautures to op labels      structure / dim. reduction     interacting with the environment and
+                                                                               by receiving rewards/penalities
+                    - to predict/classify       - to discover hidden           - to identify the best sequence of actions
+                                                patterns/structures/grouping   that maximises the future return(rewards)
+Examples            Classification, Regression  Clustering, Dim. Reduction     Robotics, Recommendation systems
+Feedback            Direct (as model is         No feedback                    Reward based on action items
+                    trained from known labels)
+Usecase             Prediction (eg: stock)      Segmentation                   Self-driving cars
+                    Email spam detection        Anamoly detection              Dynamic pricing
+Algorithm           Linear Regression           K-means, DBScan                Q-learning, Deep Q-networks                   
+                    DT, RF, NN                  Isolation Forest
+
+
+Difference between underfitting / overfitting
+
+Aspect	            Underfitting	                            Overfitting
+
+Definition          Model is too simple to learn the            Model is too complex and learns 
+                    underlying pattern                          noise with patterns
+Cause               insufficient training                       not enough regularization
+Training Error      High                                        Low
+Test Error          Low                                         High
+Generalization      Poor (fails in both training aswell         Poor (performs well on training, but
+                    on unknown testing data                     fails on unknown testing data)                     
+Solution            Increase model complexity                   Simplify model
+                    Ex. add features, use deeper models         Ex. use regularization, cross-validation
+
+
+Regularization - introduces penality term to loss function to discourage model complexity
+
+Type        Penality term                       Effect              
+
+Lasso L1    sum of absolute values of weights   encourage sparcity (feature selection)
+Ridge L2    sum of squares of weights           shrinks large weights and reduce complexity
+Elastic Net Combination of L1 and L2            Balances feature selections and regularization
+
+
+Cross Validation - split the data into multiple sets of training and validation data subsets
+                 - to evaluate model performance on unknown data
+                 
+Technique           How it works
+
+k-Fold CV           Splits data into k parts, trains on k-1 and tests on 1  
+TimeSeiesSplit      For time-series
+Stratified k-Fold   Ensures class distribution is preserved               
+                 
+                 
+How do you handle missing or corrupted data?
+
+entirely depending on the dataset used
+* imputation - medien/mean filling 
+* interpolation
+* forward/backward fill
+* dropping columns/rows
+
+
+Defination of accuracy, precision, recall, F1-score, and when do you prefer one over the other
+
+Metric         Definition                           Formula                    Best Used When…              Example
+
+Accuracy       Overall correctness of the model     (TP+TN) / (TP+TN+FP+FN)    Classes are balanced
+Precision      How many TP are truly positive       TP / (TP+FP)               False positives are costly   spam filter, fraud alert
+Recall         How many positives are correctly     TP / (TP+FN)               False negatives are costly   Disease detection
+               predicted                                                                                    Fraud detection
+F1-Score       Harmonic mean of precision & recall  2xPxR/(P+R)                Imbalanced classes
+
+
+
+
+
